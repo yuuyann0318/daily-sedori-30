@@ -1,0 +1,603 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="index,follow">
+<title>今日の利益商品30</title>
+<meta name="description" content="毎朝、売れ行きと利益の余地からスコアの高い30商品を自動で選んで並べています。">
+<!--
+  ★外部リソースゼロ★ CDN・Webフォント・外部JS/CSS を一切読み込まない。
+  読み込む外部URLは商品画像（Amazonの画像サーバ）だけ。
+  データは同じフォルダの data.json（?demo=1 のときだけ data.sample.json）。
+-->
+<style>
+:root{
+  --bg:#f4f8ff; --card:#ffffff; --ink:#10233d; --sub:#5c728f; --line:#dfe8f6;
+  --s:#f97316; --s-bg:#fff3e6; --a:#2563eb; --a-bg:#eaf1ff; --b:#7a8ca3; --b-bg:#eef2f7;
+  --good:#0f9d58; --warn:#fff6d8; --warn-line:#f0d27a; --accent:#1d4ed8;
+  --r:16px; --tap:48px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:none}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Yu Gothic",Meiryo,sans-serif;
+  font-size:16px; line-height:1.7; letter-spacing:.01em;
+}
+.wrap{max-width:980px; margin:0 auto; padding:0 14px 64px}
+
+/* ---------- ヘッダー ---------- */
+header{background:linear-gradient(180deg,#1d4ed8,#2563eb); color:#fff; padding:18px 0 16px}
+.head-in{max-width:980px; margin:0 auto; padding:0 14px}
+h1{margin:0; font-size:26px; line-height:1.35; letter-spacing:.02em}
+.updated{margin:8px 0 0; font-size:15px; font-weight:700}
+.updated .big{font-size:20px}
+.lead{margin:6px 0 0; font-size:14px; opacity:.95}
+.band{
+  margin:10px 0 0; padding:10px 12px; border-radius:12px;
+  background:var(--warn); border:2px solid var(--warn-line); color:#5a4300;
+  font-size:14px; font-weight:700;
+}
+.demobar{background:#ffe9a8; color:#5a4300; text-align:center; padding:8px 12px;
+  font-size:14px; font-weight:700}
+
+/* ---------- 使い方 ---------- */
+details.howto{
+  margin:14px 0 0; background:var(--card); border:2px solid var(--line);
+  border-radius:var(--r); overflow:hidden;
+}
+details.howto>summary{
+  cursor:pointer; list-style:none; padding:14px; font-size:17px; font-weight:800;
+  min-height:var(--tap); display:flex; align-items:center; gap:8px;
+}
+details.howto>summary::-webkit-details-marker{display:none}
+details.howto>summary::after{content:"▼"; margin-left:auto; font-size:13px; color:var(--sub)}
+details.howto[open]>summary::after{content:"▲"}
+.steps{display:grid; gap:10px; padding:0 14px 16px}
+@media (min-width:720px){ .steps{grid-template-columns:repeat(3,1fr)} }
+.step{
+  background:#f7faff; border:2px solid var(--line); border-radius:14px; padding:12px;
+  display:grid; gap:6px; align-content:start;
+}
+.step .no{
+  display:inline-grid; place-items:center; inline-size:30px; block-size:30px;
+  border-radius:50%; background:var(--accent); color:#fff; font-weight:800; font-size:15px;
+}
+.step b{font-size:16px}
+.step p{margin:0; font-size:14px; color:var(--sub)}
+.step .fig{
+  border:2px dashed var(--line); border-radius:12px; padding:10px; text-align:center;
+  background:#fff; font-weight:800; font-size:15px; color:var(--accent);
+}
+
+/* ---------- フィルタ ---------- */
+.tools{
+  position:sticky; top:0; z-index:20; margin:14px 0 0; padding:10px 0;
+  background:var(--bg);
+}
+.tools-in{
+  display:flex; gap:8px; align-items:center; overflow-x:auto; padding:2px;
+  -webkit-overflow-scrolling:touch; scrollbar-width:none;
+}
+.tools-in::-webkit-scrollbar{display:none}
+.chip{
+  flex:0 0 auto; min-height:var(--tap); padding:0 16px; border-radius:999px;
+  border:2px solid var(--line); background:#fff; color:var(--ink);
+  font-size:15px; font-weight:800; cursor:pointer; display:inline-grid;
+  place-items:center;
+}
+.chip[aria-pressed="true"]{background:var(--accent); border-color:var(--accent); color:#fff}
+select{
+  flex:0 0 auto; min-height:var(--tap); padding:0 34px 0 12px; border-radius:999px;
+  border:2px solid var(--line); background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%235c728f' stroke-width='2'/%3E%3C/svg%3E") no-repeat right 12px center/12px 8px;
+  font-size:15px; font-weight:700; color:var(--ink); -webkit-appearance:none; appearance:none;
+}
+.count{margin:10px 2px 0; font-size:14px; color:var(--sub); font-weight:700}
+
+/* ---------- カード ---------- */
+.list{display:grid; gap:14px; margin:10px 0 0}
+@media (min-width:720px){ .list{grid-template-columns:repeat(2,1fr)} }
+.card{
+  background:var(--card); border:2px solid var(--line); border-radius:var(--r);
+  padding:14px; display:grid; gap:10px; align-content:start;
+}
+.card-top{display:flex; align-items:center; gap:8px; flex-wrap:wrap}
+.rank{font-size:15px; font-weight:800; color:var(--sub)}
+.badge{
+  padding:3px 12px; border-radius:999px; font-size:14px; font-weight:800;
+  border:2px solid transparent;
+}
+.badge.S{background:var(--s-bg); color:var(--s); border-color:var(--s)}
+.badge.A{background:var(--a-bg); color:var(--a); border-color:var(--a)}
+.badge.B{background:var(--b-bg); color:var(--b); border-color:var(--b)}
+.new{background:#e7f8ef; color:var(--good); border:2px solid var(--good);
+  padding:3px 10px; border-radius:999px; font-size:13px; font-weight:800}
+.item-head{display:flex; gap:12px; align-items:flex-start}
+.thumb{
+  flex:0 0 auto; inline-size:92px; block-size:92px; border-radius:12px;
+  border:2px solid var(--line); background:#fff; display:grid; place-items:center;
+  overflow:hidden;
+}
+.thumb img{width:88px; height:88px; object-fit:contain; display:block}
+.thumb .noimg{font-size:12px; color:var(--sub); text-align:center; padding:4px}
+.title{margin:0; font-size:15px; font-weight:700; line-height:1.5}
+.cat{margin:4px 0 0; font-size:13px; color:var(--sub)}
+.hero{
+  background:#fff8ef; border:3px solid #ffd9a8; border-radius:14px; padding:12px;
+  text-align:center;
+}
+.hero .lbl{font-size:15px; font-weight:800; color:#9a5b00}
+.hero .val{font-size:34px; font-weight:900; line-height:1.2; color:#b45309; letter-spacing:.01em}
+.hero .sub{font-size:13px; color:#9a5b00}
+.hero.none .val{font-size:20px; color:var(--sub)}
+.rowfacts{display:grid; gap:8px; grid-template-columns:repeat(2,1fr)}
+.fact{background:#f7faff; border:2px solid var(--line); border-radius:12px; padding:8px 10px}
+.fact .k{font-size:12px; color:var(--sub); font-weight:700}
+.fact .v{font-size:18px; font-weight:800}
+.why{margin:0; font-size:15px; font-weight:700; line-height:1.6}
+.reasons{margin:0; padding-left:1.1em; font-size:14px; color:var(--sub)}
+.reasons li{margin:2px 0}
+.chips{display:flex; flex-wrap:wrap; gap:6px}
+.tag{
+  font-size:13px; font-weight:700; padding:4px 10px; border-radius:999px;
+  background:#eef4ff; color:#2b4a7a; border:1px solid #d7e4fb;
+}
+.tag.muted{background:#f1f4f8; color:var(--sub); border-color:#e2e8f0}
+.cautions{
+  margin:0; padding:10px 12px; border-radius:12px; background:var(--warn);
+  border:2px solid var(--warn-line); color:#5a4300; font-size:13px;
+}
+.cautions ul{margin:0; padding-left:1.1em}
+.actions{display:grid; gap:8px}
+@media (min-width:420px){ .actions{grid-template-columns:repeat(2,1fr)} }
+.btn{
+  min-height:var(--tap); border-radius:12px; border:2px solid var(--accent);
+  background:var(--accent); color:#fff; font-size:15px; font-weight:800;
+  display:grid; place-items:center; text-decoration:none; cursor:pointer;
+  padding:0 10px; text-align:center;
+}
+.btn.ghost{background:#fff; color:var(--accent)}
+details.more{border:2px solid var(--line); border-radius:12px; background:#fbfdff}
+details.more>summary{
+  cursor:pointer; list-style:none; min-height:var(--tap); display:flex;
+  align-items:center; padding:0 12px; font-size:15px; font-weight:800; color:var(--accent);
+}
+details.more>summary::-webkit-details-marker{display:none}
+details.more>summary::after{content:"▼"; margin-left:auto; font-size:12px}
+details.more[open]>summary::after{content:"▲"}
+.more-in{padding:0 12px 12px; display:grid; gap:8px}
+.links{display:grid; gap:8px}
+@media (min-width:420px){ .links{grid-template-columns:repeat(2,1fr)} }
+.breakdown{font-size:13px; color:var(--sub)}
+.breakdown dl{margin:0; display:grid; grid-template-columns:auto auto; gap:2px 10px}
+.breakdown dt{color:var(--sub)}
+.breakdown dd{margin:0; text-align:right; font-weight:700; color:var(--ink)}
+.vars{font-size:13px; color:var(--sub)}
+
+/* ---------- 状態表示・フッター ---------- */
+.state{
+  margin:18px 0; padding:18px; border-radius:var(--r); background:#fff;
+  border:2px solid var(--line); text-align:center; font-size:15px; font-weight:700;
+}
+footer{
+  margin:22px 0 0; padding:16px; background:#fff; border:2px solid var(--line);
+  border-radius:var(--r); font-size:13px; color:var(--sub);
+}
+footer h2{margin:0 0 8px; font-size:15px; color:var(--ink)}
+footer ul{margin:0; padding-left:1.2em}
+footer li{margin:4px 0}
+.sr{position:absolute; inline-size:1px; block-size:1px; overflow:hidden; clip-path:inset(50%)}
+</style>
+</head>
+<body>
+<div class="demobar" id="demobar" hidden role="status">サンプル表示中です（架空のデータ）</div>
+
+<header>
+  <div class="head-in">
+    <h1>今日の利益商品30</h1>
+    <p class="updated" id="updated">読み込み中…</p>
+    <p class="lead">毎朝、売れ行きと利益の余地から点数をつけて、上位30個をそのまま載せています。</p>
+    <div class="band" id="staleband" hidden></div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <details class="howto" id="howto">
+    <summary>このページの見方（はじめての方へ）</summary>
+    <div class="steps">
+      <div class="step">
+        <span class="no">1</span>
+        <b>気になる商品を見つける</b>
+        <div class="fig">上から順に見るだけ</div>
+        <p>上にあるほど「早く売れて、利益の余地が大きい」と計算された商品です。</p>
+      </div>
+      <div class="step">
+        <span class="no">2</span>
+        <b>「この値段までなら仕入れOK」を覚える</b>
+        <div class="fig">オレンジの大きい数字</div>
+        <p>送料込みでこの金額までなら、手数料を引いても利益が残る計算です。</p>
+      </div>
+      <div class="step">
+        <span class="no">3</span>
+        <b>それより安く売っている店をさがす</b>
+        <div class="fig">「仕入れ先をさがす」を押す</div>
+        <p>ボタンから各サイトの検索が開きます。安く買えたらその差が利益です。</p>
+      </div>
+    </div>
+    <div class="steps" style="padding-top:0">
+      <div class="step" style="grid-column:1/-1">
+        <b>S・A・B って何？</b>
+        <p><b>S</b>＝売れる速さも利益の余地もそろっていて、今の販売価格まで実測できているもの。
+           <b>A</b>＝条件は良いけれど、Sの基準を1つ満たしていないもの。
+           <b>B</b>＝データが足りない項目があるもの。B でも悪い商品という意味ではありません。
+           点数の材料が足りないときは、その項目を計算から外しています（勝手に低く見積もりません）。</p>
+      </div>
+    </div>
+  </details>
+
+  <div class="tools">
+    <div class="tools-in" id="tools">
+      <button class="chip" type="button" data-grade="all" aria-pressed="true">すべて</button>
+      <button class="chip" type="button" data-grade="S" aria-pressed="false">S</button>
+      <button class="chip" type="button" data-grade="A" aria-pressed="false">A</button>
+      <button class="chip" type="button" data-grade="B" aria-pressed="false">B</button>
+      <label class="sr" for="cat">ジャンル</label>
+      <select id="cat"><option value="all">ジャンル：すべて</option></select>
+      <label class="sr" for="sort">並び替え</label>
+      <select id="sort">
+        <option value="rank">おすすめ順</option>
+        <option value="ceiling">仕入れ上限が高い順</option>
+        <option value="sold">よく売れている順</option>
+      </select>
+    </div>
+    <p class="count" id="count"></p>
+  </div>
+
+  <div class="state" id="state">データを読み込んでいます…</div>
+  <div class="list" id="list"></div>
+
+  <footer>
+    <h2>お読みください</h2>
+    <ul id="notes"></ul>
+  </footer>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  /* 本番は data.json のみ。サンプルは ?demo=1 のときだけ読む（無警告の架空表示を禁止） */
+  var DATA_URL = "data.json";
+  var DEMO_URL = "data.sample.json";
+  var IS_DEMO = /(^|[?&])demo=1(&|$)/.test(location.search);
+  var STALE_HOURS = 48;
+
+  var state = { items: [], grade: "all", cat: "all", sort: "rank" };
+
+  function el(id) { return document.getElementById(id); }
+  function yen(n) {
+    if (n === null || n === undefined || n === "") return null;
+    return "¥" + Number(n).toLocaleString("ja-JP");
+  }
+  function text(node, value) { node.textContent = value == null ? "" : String(value); }
+  function make(tag, cls, txt) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (txt != null) n.textContent = txt;
+    return n;
+  }
+
+  /* ---------- ヘッダーの更新日時と鮮度の帯 ---------- */
+  function renderHead(data) {
+    var when = data.generated_at ? new Date(data.generated_at) : null;
+    if (when && !isNaN(when.getTime())) {
+      var f = new Intl.DateTimeFormat("ja-JP", {
+        month: "long", day: "numeric", hour: "2-digit", minute: "2-digit"
+      }).format(when);
+      el("updated").innerHTML = "";
+      el("updated").appendChild(document.createTextNode("更新："));
+      var big = make("span", "big", f);
+      el("updated").appendChild(big);
+      var hours = (Date.now() - when.getTime()) / 3600000;
+      if (hours > STALE_HOURS) {
+        var band = el("staleband");
+        band.hidden = false;
+        text(band, "このデータは" + Math.round(hours) + "時間前のものです。"
+             + "最新の値段はAmazonの商品ページで確かめてください。");
+      }
+    } else {
+      text(el("updated"), "更新日時が取得できませんでした");
+    }
+    var ul = el("notes");
+    ul.innerHTML = "";
+    (data.notes || []).forEach(function (nt) { ul.appendChild(make("li", null, nt)); });
+  }
+
+  /* ---------- カード ---------- */
+  function factTag(label, value, unit) {
+    if (value === null || value === undefined) {
+      return make("span", "tag muted", label + "：データ不足");
+    }
+    return make("span", "tag", label + "：" + Number(value).toLocaleString("ja-JP") + (unit || ""));
+  }
+
+  function buildHero(item) {
+    var box = make("div", "hero");
+    var c = item.ceiling || {};
+    var v = yen(c.ceiling_yen);
+    box.appendChild(make("div", "lbl", "この値段までなら仕入れOK"));
+    if (v === null) {
+      box.className = "hero none";
+      box.appendChild(make("div", "val", "計算できていません"));
+      box.appendChild(make("div", "sub", "この商品のジャンルは手数料が確認できていません"));
+      return box;
+    }
+    box.appendChild(make("div", "val", v));
+    box.appendChild(make("div", "sub",
+      "送料込みの支払い総額で比べてください" + (c.conditional ? "（標準サイズだった場合）" : "")));
+    return box;
+  }
+
+  function buildFacts(item) {
+    var m = item.metrics || {};
+    var wrap = make("div", "rowfacts");
+    var price = make("div", "fact");
+    price.appendChild(make("div", "k", m.price_is_cart ? "いま売れている値段" : "売れている値段（推定）"));
+    price.appendChild(make("div", "v", yen(m.price_yen) || "データ不足"));
+    wrap.appendChild(price);
+
+    var fee = make("div", "fact");
+    var b = (item.ceiling || {}).breakdown || {};
+    var feeSum = (b.referral_fee_yen == null && b.fba_fee_yen == null)
+      ? null : (b.referral_fee_yen || 0) + (b.fba_fee_yen || 0);
+    fee.appendChild(make("div", "k", "Amazonに払う手数料の目安"));
+    fee.appendChild(make("div", "v", yen(feeSum) || "データ不足"));
+    wrap.appendChild(fee);
+    return wrap;
+  }
+
+  function buildBreakdown(item) {
+    var c = item.ceiling || {}, b = c.breakdown || {};
+    var box = make("div", "breakdown");
+    var dl = document.createElement("dl");
+    [["売れている値段", b.sale_price_yen],
+     ["販売手数料（税込・概算）", b.referral_fee_yen],
+     ["FBA配送代行（概算）", b.fba_fee_yen],
+     ["その他の費用", b.misc_cost_yen],
+     ["上限で仕入れたときに残る利益", b.target_profit_yen]].forEach(function (pair) {
+      if (pair[1] === null || pair[1] === undefined) return;
+      dl.appendChild(make("dt", null, pair[0]));
+      dl.appendChild(make("dd", null, yen(pair[1])));
+    });
+    box.appendChild(dl);
+    if (b.size_label) box.appendChild(make("p", null, "サイズ区分：" + b.size_label));
+    if (c.note) box.appendChild(make("p", null, c.note));
+    return box;
+  }
+
+  function buildCard(item) {
+    var card = make("article", "card");
+
+    var top = make("div", "card-top");
+    top.appendChild(make("span", "rank", item.rank + "位"));
+    top.appendChild(make("span", "badge " + item.grade, item.grade));
+    if (item.listing && item.listing.is_new_today) top.appendChild(make("span", "new", "NEW"));
+    if (item.listing && item.listing.streak_days > 1) {
+      top.appendChild(make("span", "tag muted", item.listing.streak_days + "日連続で掲載中"));
+    }
+    card.appendChild(top);
+
+    var head = make("div", "item-head");
+    var thumb = make("div", "thumb");
+    if (item.image_url) {
+      var img = document.createElement("img");
+      img.src = item.image_url;
+      img.alt = "";
+      img.loading = "lazy";
+      img.referrerPolicy = "no-referrer";
+      img.onerror = function () {
+        thumb.innerHTML = "";
+        thumb.appendChild(make("span", "noimg", "画像なし"));
+      };
+      thumb.appendChild(img);
+    } else {
+      thumb.appendChild(make("span", "noimg", "画像なし"));
+    }
+    head.appendChild(thumb);
+    var meta = make("div");
+    meta.appendChild(make("p", "title", item.title || "（商品名を取得できていません）"));
+    if (item.category) meta.appendChild(make("p", "cat", item.category));
+    head.appendChild(meta);
+    card.appendChild(head);
+
+    card.appendChild(buildHero(item));
+    card.appendChild(buildFacts(item));
+    if (item.headline) card.appendChild(make("p", "why", item.headline));
+
+    var m = item.metrics || {};
+    var chips = make("div", "chips");
+    chips.appendChild(factTag("1か月に売れる数", m.est_monthly_sold, "個"));
+    chips.appendChild(factTag("ランキング", m.sales_rank, "位"));
+    chips.appendChild(factTag("いまの出品者", m.seller_count_now, "人"));
+    card.appendChild(chips);
+
+    if ((item.reasons || []).length) {
+      var det = make("details", "more");
+      det.appendChild(make("summary", null, "この商品をえらんだ理由"));
+      var inner = make("div", "more-in");
+      var ul = make("ul", "reasons");
+      item.reasons.forEach(function (r) { ul.appendChild(make("li", null, r)); });
+      inner.appendChild(ul);
+      inner.appendChild(buildBreakdown(item));
+      if ((item.variations || []).length) {
+        inner.appendChild(make("p", "vars",
+          "色ちがい・サイズちがいが他に" + item.variations.length + "件あります"));
+      }
+      det.appendChild(inner);
+      card.appendChild(det);
+    }
+
+    if ((item.cautions || []).length) {
+      var box = make("div", "cautions");
+      var cul = document.createElement("ul");
+      item.cautions.forEach(function (c) { cul.appendChild(make("li", null, c)); });
+      box.appendChild(cul);
+      card.appendChild(box);
+    }
+
+    var links = item.links || {};
+    var actions = make("div", "actions");
+    if (links.amazon_url) {
+      var a1 = make("a", "btn", "Amazonで見る");
+      a1.href = links.amazon_url; a1.target = "_blank"; a1.rel = "noopener nofollow";
+      actions.appendChild(a1);
+    }
+    if (links.keepa_url) {
+      var a2 = make("a", "btn ghost", "値段の動きを見る");
+      a2.href = links.keepa_url; a2.target = "_blank"; a2.rel = "noopener nofollow";
+      actions.appendChild(a2);
+    }
+    card.appendChild(actions);
+
+    if ((links.sourcing || []).length) {
+      var sd = make("details", "more");
+      sd.appendChild(make("summary", null, "仕入れ先をさがす"));
+      var si = make("div", "more-in");
+      var grid = make("div", "links");
+      links.sourcing.forEach(function (s) {
+        var a = make("a", "btn ghost", s.label);
+        a.href = s.url; a.target = "_blank"; a.rel = "noopener nofollow";
+        grid.appendChild(a);
+      });
+      si.appendChild(grid);
+      si.appendChild(make("p", "vars",
+        "各サイトの検索結果が開きます。送料を含めた支払い総額で比べてください。"));
+      sd.appendChild(si);
+      card.appendChild(sd);
+    }
+    return card;
+  }
+
+  /* ---------- 一覧 ---------- */
+  function visibleItems() {
+    var out = state.items.filter(function (it) {
+      if (state.grade !== "all" && it.grade !== state.grade) return false;
+      if (state.cat !== "all" && (it.category || "その他") !== state.cat) return false;
+      return true;
+    });
+    var key = state.sort;
+    out = out.slice();
+    if (key === "ceiling") {
+      out.sort(function (a, b) {
+        var x = (a.ceiling || {}).ceiling_yen, y = (b.ceiling || {}).ceiling_yen;
+        if (x == null && y == null) return a.rank - b.rank;
+        if (x == null) return 1;
+        if (y == null) return -1;
+        return y - x;
+      });
+    } else if (key === "sold") {
+      out.sort(function (a, b) {
+        var x = (a.metrics || {}).est_monthly_sold, y = (b.metrics || {}).est_monthly_sold;
+        if (x == null && y == null) return a.rank - b.rank;
+        if (x == null) return 1;
+        if (y == null) return -1;
+        return y - x;
+      });
+    } else {
+      out.sort(function (a, b) { return a.rank - b.rank; });
+    }
+    return out;
+  }
+
+  function render() {
+    var list = el("list");
+    list.innerHTML = "";
+    var items = visibleItems();
+    items.forEach(function (it) { list.appendChild(buildCard(it)); });
+    text(el("count"), items.length + "件を表示中（全" + state.items.length + "件）");
+    var st = el("state");
+    if (!items.length) {
+      st.hidden = false;
+      text(st, "条件に合う商品がありません。フィルタを「すべて」に戻してください。");
+    } else {
+      st.hidden = true;
+    }
+  }
+
+  function fillCategories() {
+    var seen = {}, sel = el("cat");
+    state.items.forEach(function (it) {
+      var c = it.category || "その他";
+      if (!seen[c]) { seen[c] = true; }
+    });
+    Object.keys(seen).sort().forEach(function (c) {
+      var o = document.createElement("option");
+      o.value = c; o.textContent = "ジャンル：" + c;
+      sel.appendChild(o);
+    });
+  }
+
+  function bindTools() {
+    var chips = document.querySelectorAll("#tools .chip");
+    Array.prototype.forEach.call(chips, function (btn) {
+      btn.addEventListener("click", function () {
+        Array.prototype.forEach.call(chips, function (b) {
+          b.setAttribute("aria-pressed", b === btn ? "true" : "false");
+        });
+        state.grade = btn.getAttribute("data-grade");
+        render();
+      });
+    });
+    el("cat").addEventListener("change", function () { state.cat = this.value; render(); });
+    el("sort").addEventListener("change", function () { state.sort = this.value; render(); });
+  }
+
+  function openHowtoOnce() {
+    var d = el("howto");
+    var seen = null;
+    try { seen = localStorage.getItem("dailysedori_howto_seen"); } catch (e) { seen = null; }
+    d.open = !seen;
+    d.addEventListener("toggle", function () {
+      if (!d.open) { try { localStorage.setItem("dailysedori_howto_seen", "1"); } catch (e) {} }
+    });
+  }
+
+  /* ---------- 取得 ---------- */
+  function fail(lines) {
+    var st = el("state");
+    st.hidden = false;
+    st.innerHTML = "";
+    lines.forEach(function (t) { st.appendChild(make("p", null, t)); });
+  }
+
+  function load() {
+    if (location.protocol === "file:") {
+      fail(["ブラウザの制限により、ファイルを直接開くとデータを読み込めません。",
+            "公開ページのURLから開いてください。"]);
+      return;
+    }
+    var url = IS_DEMO ? DEMO_URL : DATA_URL;
+    if (IS_DEMO) el("demobar").hidden = false;
+    fetch(url, { cache: "no-store" }).then(function (res) {
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      return res.json();
+    }).then(function (data) {
+      state.items = (data.items || []).slice();
+      renderHead(data);
+      fillCategories();
+      render();
+    }).catch(function (e) {
+      fail(["データを読み込めませんでした（" + e.message + "）。",
+            "少し時間をおいて、ページを再読み込みしてください。"]);
+    });
+  }
+
+  openHowtoOnce();
+  bindTools();
+  load();
+})();
+</script>
+</body>
+</html>
