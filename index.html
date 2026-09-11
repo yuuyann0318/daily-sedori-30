@@ -14,8 +14,12 @@
 <style>
 :root{
   --bg:#f4f8ff; --card:#ffffff; --ink:#10233d; --sub:#5c728f; --line:#dfe8f6;
-  --s:#f97316; --s-bg:#fff3e6; --a:#2563eb; --a-bg:#eaf1ff; --b:#7a8ca3; --b-bg:#eef2f7;
-  --good:#0f9d58; --warn:#fff6d8; --warn-line:#f0d27a; --accent:#1d4ed8;
+  /* ★文字色は WCAG AA(4.5:1) を満たす濃さにしている★ 実測:
+     S #b34d04/#fff3e6=4.83 / B #5a6c84/#eef2f7=4.77 / NEW #0b7a45/#e7f8ef=4.91 /
+     muted #556986/#f1f4f8=5.07。明るい配色トーンは変えず文字だけ濃くしている。 */
+  --s:#b34d04; --s-bg:#fff3e6; --a:#2563eb; --a-bg:#eaf1ff; --b:#5a6c84; --b-bg:#eef2f7;
+  --good:#0b7a45; --warn:#fff6d8; --warn-line:#f0d27a; --accent:#1d4ed8;
+  --muted-ink:#556986;
   --r:16px; --tap:48px;
 }
 *{box-sizing:border-box}
@@ -76,20 +80,21 @@ details.howto[open]>summary::after{content:"▲"}
   position:sticky; top:0; z-index:20; margin:14px 0 0; padding:10px 0;
   background:var(--bg);
 }
+/* ★2段に折り返す★ 1行の横スクロールだと 375px で「ジャンル」「並び替え」が
+   画面外(実測 maxRight=721)に出てしまい、スクロールできる手がかりも無かった。 */
 .tools-in{
-  display:flex; gap:8px; align-items:center; overflow-x:auto; padding:2px;
-  -webkit-overflow-scrolling:touch; scrollbar-width:none;
+  display:flex; flex-wrap:wrap; gap:8px; align-items:center; padding:2px;
 }
-.tools-in::-webkit-scrollbar{display:none}
+.tools-in .grow{flex:1 1 150px; min-width:0}
 .chip{
-  flex:0 0 auto; min-height:var(--tap); padding:0 16px; border-radius:999px;
+  flex:1 1 auto; min-width:64px; min-height:var(--tap); padding:0 14px; border-radius:999px;
   border:2px solid var(--line); background:#fff; color:var(--ink);
   font-size:15px; font-weight:800; cursor:pointer; display:inline-grid;
   place-items:center;
 }
 .chip[aria-pressed="true"]{background:var(--accent); border-color:var(--accent); color:#fff}
 select{
-  flex:0 0 auto; min-height:var(--tap); padding:0 34px 0 12px; border-radius:999px;
+  flex:1 1 150px; min-width:0; min-height:var(--tap); padding:0 34px 0 12px; border-radius:999px;
   border:2px solid var(--line); background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%235c728f' stroke-width='2'/%3E%3C/svg%3E") no-repeat right 12px center/12px 8px;
   font-size:15px; font-weight:700; color:var(--ink); -webkit-appearance:none; appearance:none;
 }
@@ -148,7 +153,7 @@ select{
   font-size:13px; font-weight:700; padding:4px 10px; border-radius:999px;
   background:#eef4ff; color:#2b4a7a; border:1px solid #d7e4fb;
 }
-.tag.muted{background:#f1f4f8; color:var(--sub); border-color:#e2e8f0}
+.tag.muted{background:#f1f4f8; color:var(--muted-ink); border-color:#cbd5e1}
 .cautions{
   margin:0; padding:10px 12px; border-radius:12px; background:var(--warn);
   border:2px solid var(--warn-line); color:#5a4300; font-size:13px;
@@ -222,13 +227,13 @@ footer li{margin:4px 0}
         <span class="no">2</span>
         <b>「この値段までなら仕入れOK」を覚える</b>
         <div class="fig">オレンジの大きい数字</div>
-        <p>送料込みでこの金額までなら、手数料を引いても利益が残る計算です。</p>
+        <p>送料込みでこの金額までなら、Amazonの手数料を引いても利益が1,000円ほど残る計算です。</p>
       </div>
       <div class="step">
         <span class="no">3</span>
         <b>それより安く売っている店をさがす</b>
         <div class="fig">「仕入れ先をさがす」を押す</div>
-        <p>ボタンから各サイトの検索が開きます。安く買えたらその差が利益です。</p>
+        <p>ボタンから各サイトの検索が開きます。上限より安く仕入れられた分だけ利益が増えます。ただし販売価格は変動します。</p>
       </div>
     </div>
     <div class="steps" style="padding-top:0">
@@ -249,9 +254,9 @@ footer li{margin:4px 0}
       <button class="chip" type="button" data-grade="A" aria-pressed="false">A</button>
       <button class="chip" type="button" data-grade="B" aria-pressed="false">B</button>
       <label class="sr" for="cat">ジャンル</label>
-      <select id="cat"><option value="all">ジャンル：すべて</option></select>
+      <select id="cat" class="grow"><option value="all">ジャンル：すべて</option></select>
       <label class="sr" for="sort">並び替え</label>
-      <select id="sort">
+      <select id="sort" class="grow">
         <option value="rank">おすすめ順</option>
         <option value="ceiling">仕入れ上限が高い順</option>
         <option value="sold">よく売れている順</option>
@@ -423,7 +428,7 @@ footer li{margin:4px 0}
 
     var m = item.metrics || {};
     var chips = make("div", "chips");
-    chips.appendChild(factTag("1か月に売れる数", m.est_monthly_sold, "個"));
+    chips.appendChild(factTag("1か月に売れる数(推定)", m.est_monthly_sold, "個"));
     chips.appendChild(factTag("ランキング", m.sales_rank, "位"));
     chips.appendChild(factTag("いまの出品者", m.seller_count_now, "人"));
     card.appendChild(chips);
