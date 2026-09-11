@@ -55,7 +55,7 @@ details.howto>summary::-webkit-details-marker{display:none}
 details.howto>summary::after{content:"▼"; margin-left:auto; font-size:13px; color:var(--sub)}
 details.howto[open]>summary::after{content:"▲"}
 .steps{display:grid; gap:10px; padding:0 14px 16px}
-@media (min-width:720px){ .steps{grid-template-columns:repeat(3,1fr)} }
+@media (min-width:720px){ .steps{grid-template-columns:repeat(3,minmax(0,1fr))} }
 .step{
   background:#f7faff; border:2px solid var(--line); border-radius:14px; padding:12px;
   display:grid; gap:6px; align-content:start;
@@ -65,7 +65,7 @@ details.howto[open]>summary::after{content:"▲"}
   border-radius:50%; background:var(--accent); color:#fff; font-weight:800; font-size:15px;
 }
 .step b{font-size:16px}
-.step p{margin:0; font-size:14px; color:var(--sub)}
+.step p{margin:0; font-size:14px; color:var(--sub); overflow-wrap:anywhere}
 .step .fig{
   border:2px dashed var(--line); border-radius:12px; padding:10px; text-align:center;
   background:#fff; font-weight:800; font-size:15px; color:var(--accent);
@@ -96,11 +96,14 @@ select{
 .count{margin:10px 2px 0; font-size:14px; color:var(--sub); font-weight:700}
 
 /* ---------- カード ---------- */
-.list{display:grid; gap:14px; margin:10px 0 0}
-@media (min-width:720px){ .list{grid-template-columns:repeat(2,1fr)} }
+.list{display:grid; gap:14px; margin:10px 0 0; grid-template-columns:minmax(0,1fr)}
+@media (min-width:720px){ .list{grid-template-columns:repeat(2,minmax(0,1fr))} }
 .card{
   background:var(--card); border:2px solid var(--line); border-radius:var(--r);
   padding:14px; display:grid; gap:10px; align-content:start;
+  /* ★min-width:0 が無いと孫のグリッドが min-content でカードを押し広げ、
+     スマホで横スクロールが出る（実測で発見）★ */
+  min-width:0; overflow-wrap:anywhere;
 }
 .card-top{display:flex; align-items:center; gap:8px; flex-wrap:wrap}
 .rank{font-size:15px; font-weight:800; color:var(--sub)}
@@ -114,6 +117,7 @@ select{
 .new{background:#e7f8ef; color:var(--good); border:2px solid var(--good);
   padding:3px 10px; border-radius:999px; font-size:13px; font-weight:800}
 .item-head{display:flex; gap:12px; align-items:flex-start}
+.item-head>div{min-width:0}
 .thumb{
   flex:0 0 auto; inline-size:92px; block-size:92px; border-radius:12px;
   border:2px solid var(--line); background:#fff; display:grid; place-items:center;
@@ -121,7 +125,7 @@ select{
 }
 .thumb img{width:88px; height:88px; object-fit:contain; display:block}
 .thumb .noimg{font-size:12px; color:var(--sub); text-align:center; padding:4px}
-.title{margin:0; font-size:15px; font-weight:700; line-height:1.5}
+.title{margin:0; font-size:15px; font-weight:700; line-height:1.5; overflow-wrap:anywhere}
 .cat{margin:4px 0 0; font-size:13px; color:var(--sub)}
 .hero{
   background:#fff8ef; border:3px solid #ffd9a8; border-radius:14px; padding:12px;
@@ -131,8 +135,9 @@ select{
 .hero .val{font-size:34px; font-weight:900; line-height:1.2; color:#b45309; letter-spacing:.01em}
 .hero .sub{font-size:13px; color:#9a5b00}
 .hero.none .val{font-size:20px; color:var(--sub)}
-.rowfacts{display:grid; gap:8px; grid-template-columns:repeat(2,1fr)}
-.fact{background:#f7faff; border:2px solid var(--line); border-radius:12px; padding:8px 10px}
+.rowfacts{display:grid; gap:8px; grid-template-columns:repeat(2,minmax(0,1fr))}
+.fact{background:#f7faff; border:2px solid var(--line); border-radius:12px;
+  padding:8px 10px; min-width:0; overflow-wrap:anywhere}
 .fact .k{font-size:12px; color:var(--sub); font-weight:700}
 .fact .v{font-size:18px; font-weight:800}
 .why{margin:0; font-size:15px; font-weight:700; line-height:1.6}
@@ -150,9 +155,9 @@ select{
 }
 .cautions ul{margin:0; padding-left:1.1em}
 .actions{display:grid; gap:8px}
-@media (min-width:420px){ .actions{grid-template-columns:repeat(2,1fr)} }
+@media (min-width:420px){ .actions{grid-template-columns:repeat(2,minmax(0,1fr))} }
 .btn{
-  min-height:var(--tap); border-radius:12px; border:2px solid var(--accent);
+  min-width:0; min-height:var(--tap); border-radius:12px; border:2px solid var(--accent);
   background:var(--accent); color:#fff; font-size:15px; font-weight:800;
   display:grid; place-items:center; text-decoration:none; cursor:pointer;
   padding:0 10px; text-align:center;
@@ -168,9 +173,9 @@ details.more>summary::after{content:"▼"; margin-left:auto; font-size:12px}
 details.more[open]>summary::after{content:"▲"}
 .more-in{padding:0 12px 12px; display:grid; gap:8px}
 .links{display:grid; gap:8px}
-@media (min-width:420px){ .links{grid-template-columns:repeat(2,1fr)} }
+@media (min-width:420px){ .links{grid-template-columns:repeat(2,minmax(0,1fr))} }
 .breakdown{font-size:13px; color:var(--sub)}
-.breakdown dl{margin:0; display:grid; grid-template-columns:auto auto; gap:2px 10px}
+.breakdown dl{margin:0; display:grid; grid-template-columns:minmax(0,1fr) auto; gap:2px 10px}
 .breakdown dt{color:var(--sub)}
 .breakdown dd{margin:0; text-align:right; font-weight:700; color:var(--ink)}
 .vars{font-size:13px; color:var(--sub)}
