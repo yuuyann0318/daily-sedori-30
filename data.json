@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-12T06:54:36.432260+09:00",
- "date_jst": "2026-09-12",
+ "generated_at": "2026-09-13T06:30:04.064481+09:00",
+ "date_jst": "2026-09-13",
  "count": 30,
  "grade_counts": {
   "S": 19,
@@ -118,8 +118,8 @@
     }
    ],
    "listing": {
-    "is_new_today": true,
-    "streak_days": 1
+    "is_new_today": false,
+    "streak_days": 2
    }
   },
   {
@@ -206,8 +206,8 @@
    },
    "variations": [],
    "listing": {
-    "is_new_today": true,
-    "streak_days": 1
+    "is_new_today": false,
+    "streak_days": 2
    }
   },
   {
@@ -292,8 +292,8 @@
    },
    "variations": [],
    "listing": {
-    "is_new_today": true,
-    "streak_days": 1
+    "is_new_today": false,
+    "streak_days": 2
    }
   },
   {
@@ -379,8 +379,8 @@
    },
    "variations": [],
    "listing": {
-    "is_new_today": true,
-    "streak_days": 1
+    "is_new_today": false,
+    "streak_days": 2
    }
   },
   {
@@ -466,8 +466,8 @@
    },
    "variations": [],
    "listing": {
-    "is_new_today": true,
-    "streak_days": 1
+    "is_new_today": false,
+    "streak_days": 2
    }
   },
   {
@@ -549,8 +549,8 @@
    },
    "variations": [],
    "listing": {
-    "is_new_today": true,
-    "streak_days": 1
+    "is_new_today": false,
+    "streak_days": 2
    }
   },
   {
@@ -637,8 +637,8 @@
    },
    "variations": [],
    "listing": {
-    "is_new_today": true,
-    "streak_days": 1
+    "is_new_today": false,
+    "streak_days": 2
    }
   },
   {
@@ -725,8 +725,8 @@
    },
    "variations": [],
    "listing": {
-    "is_new_today": true,
-    "streak_days": 1
+    "is_new_today": false,
+    "streak_days": 2
    }
   },
   {
@@ -826,8 +826,8 @@
     }
    ],
    "listing": {
-    "is_new_today": true,
-    "streak_days": 1
+    "is_new_today": false,
+    "streak_days": 2
    }
   },
   {
@@ -912,8 +912,8 @@
    },
    "variations": [],
    "listing": {
-    "is_new_today": true,
-    "streak_days": 1
+    "is_new_today": false,
+    "streak_days": 2
    }
   },
   {
@@ -1000,8 +1000,8 @@
    },
    "variations": [],
    "listing": {
-    "is_new_today": true,
-    "streak_days": 1
+    "is_new_today": false,
+    "streak_days": 2
    }
   },
   {
@@ -1086,8 +1086,8 @@
    },
    "variations": [],
    "listing": {
-    "is_new_today": true,
-    "streak_days": 1
+    "is_new_today": false,
+    "streak_days": 2
    }
   },
   {
@@ -1177,8 +1177,8 @@
     }
    ],
    "listing": {
-    "is_new_today": true,
-    "streak_days": 1
+    "is_new_today": false,
+    "streak_days": 2
    }
   },
   {
@@ -1270,8 +1270,8 @@
     }
    ],
    "listing": {
-    "is_new_today": true,
-    "streak_days": 1
+    "is_new_today": false,
+    "streak_days": 2
    }
   },
   {
@@ -1358,8 +1358,8 @@
    },
    "variations": [],
    "listing": {
-    "is_new_today": true,
-    "streak_days": 1
+    "is_new_today": false,
+    "streak_days": 2
    }
   },
   {
@@ -1446,8 +1446,8 @@
    },
    "variations": [],
    "listing": {
-    "is_new_today": true,
-    "streak_days": 1
+    "is_new_today": false,
+    "streak_days": 2
    }
   },
   {
@@ -1543,8 +1543,8 @@
     }
    ],
    "listing": {
-    "is_new_today": true,
-    "streak_days": 1
+    "is_new_today": false,
+    "streak_days": 2
    }
   },
   {
@@ -1629,8 +1629,8 @@
    },
    "variations": [],
    "listing": {
-    "is_new_today": true,
-    "streak_days": 1
+    "is_new_today": false,
+    "streak_days": 2
    }
   },
   {
@@ -1715,8 +1715,8 @@
    },
    "variations": [],
    "listing": {
-    "is_new_today": true,
-    "streak_days": 1
+    "is_new_today": false,
+    "streak_days": 2
    }
   },
   {
@@ -1813,46 +1813,48 @@
     }
    ],
    "listing": {
-    "is_new_today": true,
-    "streak_days": 1
+    "is_new_today": false,
+    "streak_days": 2
    }
   },
   {
    "rank": 21,
-   "asin": "B0HC24HFBM",
-   "title": "[BANDAI] [バンダイ 仮面ライダーマイス 初回生産限定 変身ベルト DXマイスドライバー スペシャルなりきりセット 対象年齢 3 才以上",
+   "asin": "B0BSX6VFWH",
+   "title": "パイロット かえちゃOh!! まほうのサーティワンアイスクリーム 3歳以上",
    "category": "おもちゃ",
-   "image_url": "https://m.media-amazon.com/images/I/513hzPZeuIL.jpg",
+   "image_url": "https://m.media-amazon.com/images/I/41iM6yDen-L.jpg",
    "grade": "A",
-   "score": 94.8,
-   "headline": "1か月におよそ3,000個売れているペースです（推定）。送料込み16,888円までなら仕入れてOKです。",
+   "score": 89.5,
+   "headline": "1か月におよそ700個売れているペースです（推定）。送料込み2,896円までなら仕入れてOKです。",
    "reasons": [
-    "1か月におよそ3,000個売れているペースです（Keepaのデータからの推定で、実売数ではありません）",
-    "送料込み16,888円までなら、手数料を引いても利益が残る計算です（手数料を引いて1,000円が残る計算）",
-    "いまの値段は90日の平均（17,906円）より8%高めです",
-    "カテゴリーのランキングは11位です"
+    "1か月におよそ700個売れているペースです（Keepaのデータからの推定で、実売数ではありません）",
+    "送料込み2,896円までなら、手数料を引いても利益が残る計算です（手数料を引いて1,000円が残る計算）",
+    "出品者は90日前から6人のままで変わっていません",
+    "いまの値段は90日の平均（4,019円）より24%高めです",
+    "この90日で出品者の数が187回動きました（売れて在庫が入れ替わっているサイン）",
+    "カテゴリーのランキングは323位です"
    ],
    "cautions": [
-    "BANDAIは真贋調査・知的財産の申し立てを受けやすいと言われるブランドです。仕入れる場合は正規店の領収書を保管してください。",
-    "データが足りない項目があります: 売れている証拠。その分は判定から外して計算しています。"
+    "いまの価格は90日平均（約4,019円）より24%高めです。平均に戻ると利益が減ります。",
+    "値段はカート価格ではなく推定です。Amazonで実際の販売価格を確かめてください。"
    ],
    "metrics": {
-    "price_yen": 20800,
-    "price_is_cart": true,
-    "sales_rank": 11,
-    "est_monthly_sold": 3000,
-    "seller_count_now": 21,
-    "seller_count_90d_ago": null,
-    "price_vs_avg90_pct": 8.3,
-    "data_updated_at": "2026-09-11T21:54:34.105028+00:00",
+    "price_yen": 5000,
+    "price_is_cart": false,
+    "sales_rank": 323,
+    "est_monthly_sold": 700,
+    "seller_count_now": 6,
+    "seller_count_90d_ago": 6,
+    "price_vs_avg90_pct": 24.4,
+    "data_updated_at": "2026-09-11T21:54:34.113614+00:00",
     "data_stale": false
    },
    "ceiling": {
-    "ceiling_yen": 16888,
+    "ceiling_yen": 2896,
     "conditional": false,
     "breakdown": {
-     "sale_price_yen": 20800,
-     "referral_fee_yen": 2380,
+     "sale_price_yen": 5000,
+     "referral_fee_yen": 572,
      "fba_fee_yen": 532,
      "misc_cost_yen": 0,
      "target_profit_yen": 1000,
@@ -1861,40 +1863,40 @@
     "note": "概算です。確定額はセラーセントラルの手数料シミュレーターで確認してください。"
    },
    "links": {
-    "amazon_url": "https://www.amazon.co.jp/dp/B0HC24HFBM",
-    "keepa_url": "https://keepa.com/#!product/5-B0HC24HFBM",
+    "amazon_url": "https://www.amazon.co.jp/dp/B0BSX6VFWH",
+    "keepa_url": "https://keepa.com/#!product/5-B0BSX6VFWH",
     "sourcing": [
      {
       "label": "価格.com",
-      "url": "https://search.kakaku.com/4582770022155/"
+      "url": "https://search.kakaku.com/4977554617120/"
      },
      {
-      "label": "ヨドバシ.com",
-      "url": "https://www.yodobashi.com/?word=%E3%83%90%E3%83%B3%E3%83%80%E3%82%A4%20%E4%BB%AE%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC%E3%83%9E%E3%82%A4%E3%82%B9%20%E5%88%9D%E5%9B%9E%E7%94%9F%E7%94%A3%E9%99%90%E5%AE%9A%20%E5%A4%89%E8%BA%AB%E3%83%99%E3%83%AB%E3%83%88%20DX%E3%83%9E%E3%82%A4%E3%82%B9%E3%83%89%E3%83%A9%E3%82%A4%E3%83%90%E3%83%BC%20%E3%82%B9"
+      "label": "ヨドバシ.com(型番)",
+      "url": "https://www.google.com/search?q=site%3Ayodobashi.com%20%E3%83%91%E3%82%A4%E3%83%AD%E3%83%83%E3%83%88%E3%82%A4%E3%83%B3%E3%82%AD%201861712"
      },
      {
-      "label": "ビックカメラ",
-      "url": "https://www.biccamera.com/bc/category/?q=%83o%83%93%83_%83C%20%89%BC%96%CA%83%89%83C%83_%81%5B%83%7D%83C%83X%20%8F%89%89%F1%90%B6%8EY%8C%C0%92%E8%20%95%CF%90g%83x%83%8B%83g%20DX%83%7D%83C%83X%83h%83%89%83C%83o%81%5B%20%83X"
+      "label": "ビックカメラ(型番)",
+      "url": "https://www.google.com/search?q=site%3Abiccamera.com%20%E3%83%91%E3%82%A4%E3%83%AD%E3%83%83%E3%83%88%E3%82%A4%E3%83%B3%E3%82%AD%201861712"
      },
      {
-      "label": "ヤマダウェブコム",
-      "url": "https://www.yamada-denkiweb.com/search/%E3%83%90%E3%83%B3%E3%83%80%E3%82%A4%20%E4%BB%AE%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC%E3%83%9E%E3%82%A4%E3%82%B9%20%E5%88%9D%E5%9B%9E%E7%94%9F%E7%94%A3%E9%99%90%E5%AE%9A%20%E5%A4%89%E8%BA%AB%E3%83%99%E3%83%AB%E3%83%88%20DX%E3%83%9E%E3%82%A4%E3%82%B9%E3%83%89%E3%83%A9%E3%82%A4%E3%83%90%E3%83%BC%20%E3%82%B9/"
+      "label": "ヤマダウェブコム(型番)",
+      "url": "https://www.google.com/search?q=site%3Ayamada-denkiweb.com%20%E3%83%91%E3%82%A4%E3%83%AD%E3%83%83%E3%83%88%E3%82%A4%E3%83%B3%E3%82%AD%201861712"
      },
      {
       "label": "楽天市場",
-      "url": "https://search.rakuten.co.jp/search/mall/4582770022155/"
+      "url": "https://search.rakuten.co.jp/search/mall/4977554617120/"
      },
      {
       "label": "Yahoo!ショッピング",
-      "url": "https://shopping.yahoo.co.jp/search?p=4582770022155"
+      "url": "https://shopping.yahoo.co.jp/search?p=4977554617120"
      },
      {
       "label": "Google（JANで横断）",
-      "url": "https://www.google.com/search?q=4582770022155"
+      "url": "https://www.google.com/search?q=4977554617120"
      },
      {
       "label": "メーカー公式を探す",
-      "url": "https://www.google.com/search?q=BANDAI%20%E3%83%90%E3%83%B3%E3%83%80%E3%82%A4%20%E4%BB%AE%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC%E3%83%9E%E3%82%A4%E3%82%B9%20%E5%88%9D%E5%9B%9E%E7%94%9F%E7%94%A3%E9%99%90%E5%AE%9A%20%E5%A4%89%E8%BA%AB%E3%83%99%E3%83%AB%E3%83%88%20DX%E3%83%9E%E3%82%A4%E3%82%B9%E3%83%89%E3%83%A9%E3%82%A4%E3%83%90%E3%83%BC%20%E3%82%B9%20%E5%85%AC%E5%BC%8F%20%E9%80%9A%E8%B2%A9"
+      "url": "https://www.google.com/search?q=%E3%83%91%E3%82%A4%E3%83%AD%E3%83%83%E3%83%88%E3%82%A4%E3%83%B3%E3%82%AD%28PILOT%20INK%29%201861712%20%E5%85%AC%E5%BC%8F%20%E9%80%9A%E8%B2%A9"
      }
     ]
    },
@@ -1906,41 +1908,42 @@
   },
   {
    "rank": 22,
-   "asin": "B0H6QZJBQF",
-   "title": "Mellojoy - メロジョイ　贅沢スフレ スクイーズトイ ブラインドボックスのおもちゃ　スフレ [並行輸入品]",
+   "asin": "B0BSN6NQQ7",
+   "title": "アガツマ(AGATSUMA)　アンパンマン　どこでもシャワー【2023】",
    "category": "おもちゃ",
-   "image_url": "https://m.media-amazon.com/images/I/619zXGevdSL.jpg",
+   "image_url": "https://m.media-amazon.com/images/I/41mYMxZatZL.jpg",
    "grade": "A",
-   "score": 94.4,
-   "headline": "1か月におよそ500個売れているペースです（推定）。送料込み5,905円までなら仕入れてOKです。",
+   "score": 89.2,
+   "headline": "1か月におよそ400個売れているペースです（推定）。送料込み3,764円までなら仕入れてOKです。",
    "reasons": [
-    "1か月におよそ500個売れているペースです（Keepaのデータからの推定で、実売数ではありません）",
-    "送料込み5,905円までなら、手数料を引いても利益が残る計算です（手数料を引いて1,000円が残る計算）",
-    "いまの値段は90日の平均（7,118円）より18%高めです",
-    "カテゴリーのランキングは1,170位です"
+    "1か月におよそ400個売れているペースです（Keepaのデータからの推定で、実売数ではありません）",
+    "送料込み3,764円までなら、手数料を引いても利益が残る計算です（手数料を引いて1,000円が残る計算）",
+    "出品者は90日前の10人から4人に減っています（ライバルが減っています）",
+    "いまの値段は90日の平均（2,787円）より115%高めです",
+    "この90日で出品者の数が88回動きました（売れて在庫が入れ替わっているサイン）",
+    "カテゴリーのランキングは2,829位です"
    ],
    "cautions": [
-    "いまの価格は90日平均（約7,118円）より18%高めです。平均に戻ると利益が減ります。",
-    "値段はカート価格ではなく推定です。Amazonで実際の販売価格を確かめてください。",
-    "データが足りない項目があります: 売れている証拠。その分は判定から外して計算しています。"
+    "いまの価格は90日平均（約2,787円）より115%高めです。平均に戻ると利益が減ります。",
+    "値段はカート価格ではなく推定です。Amazonで実際の販売価格を確かめてください。"
    ],
    "metrics": {
-    "price_yen": 8398,
+    "price_yen": 5980,
     "price_is_cart": false,
-    "sales_rank": 1170,
-    "est_monthly_sold": 500,
-    "seller_count_now": 2,
-    "seller_count_90d_ago": null,
-    "price_vs_avg90_pct": 18.0,
-    "data_updated_at": "2026-09-11T21:54:34.099243+00:00",
+    "sales_rank": 2829,
+    "est_monthly_sold": 400,
+    "seller_count_now": 4,
+    "seller_count_90d_ago": 10,
+    "price_vs_avg90_pct": 114.6,
+    "data_updated_at": "2026-09-11T21:54:34.800728+00:00",
     "data_stale": false
    },
    "ceiling": {
-    "ceiling_yen": 5905,
+    "ceiling_yen": 3764,
     "conditional": false,
     "breakdown": {
-     "sale_price_yen": 8398,
-     "referral_fee_yen": 961,
+     "sale_price_yen": 5980,
+     "referral_fee_yen": 684,
      "fba_fee_yen": 532,
      "misc_cost_yen": 0,
      "target_profit_yen": 1000,
@@ -1949,36 +1952,40 @@
     "note": "概算です。確定額はセラーセントラルの手数料シミュレーターで確認してください。"
    },
    "links": {
-    "amazon_url": "https://www.amazon.co.jp/dp/B0H6QZJBQF",
-    "keepa_url": "https://keepa.com/#!product/5-B0H6QZJBQF",
+    "amazon_url": "https://www.amazon.co.jp/dp/B0BSN6NQQ7",
+    "keepa_url": "https://keepa.com/#!product/5-B0BSN6NQQ7",
     "sourcing": [
      {
       "label": "価格.com",
-      "url": "https://search.kakaku.com/Mellojoy%20%E3%83%A1%E3%83%AD%E3%82%B8%E3%83%A7%E3%82%A4%20%E8%B4%85%E6%B2%A2%E3%82%B9%E3%83%95%E3%83%AC%20%E3%82%B9%E3%82%AF%E3%82%A4%E3%83%BC%E3%82%BA%E3%83%88%E3%82%A4%20%E3%83%96%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%89%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9%E3%81%AE%E3%81%8A/"
+      "url": "https://search.kakaku.com/4971404320741/"
      },
      {
       "label": "ヨドバシ.com(型番)",
-      "url": "https://www.google.com/search?q=site%3Ayodobashi.com%20%E3%83%8E%E3%83%BC%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89%E5%93%81%20%E3%80%90Z001-3%E3%80%91%E6%8A%B9%E8%8C%B6%E3%82%B9%E3%83%95%E3%83%AC"
+      "url": "https://www.google.com/search?q=site%3Ayodobashi.com%20%E3%82%A2%E3%82%AC%E3%83%84%E3%83%9E%204971404320741"
      },
      {
       "label": "ビックカメラ(型番)",
-      "url": "https://www.google.com/search?q=site%3Abiccamera.com%20%E3%83%8E%E3%83%BC%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89%E5%93%81%20%E3%80%90Z001-3%E3%80%91%E6%8A%B9%E8%8C%B6%E3%82%B9%E3%83%95%E3%83%AC"
+      "url": "https://www.google.com/search?q=site%3Abiccamera.com%20%E3%82%A2%E3%82%AC%E3%83%84%E3%83%9E%204971404320741"
      },
      {
       "label": "ヤマダウェブコム(型番)",
-      "url": "https://www.google.com/search?q=site%3Ayamada-denkiweb.com%20%E3%83%8E%E3%83%BC%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89%E5%93%81%20%E3%80%90Z001-3%E3%80%91%E6%8A%B9%E8%8C%B6%E3%82%B9%E3%83%95%E3%83%AC"
+      "url": "https://www.google.com/search?q=site%3Ayamada-denkiweb.com%20%E3%82%A2%E3%82%AC%E3%83%84%E3%83%9E%204971404320741"
      },
      {
       "label": "楽天市場",
-      "url": "https://search.rakuten.co.jp/search/mall/Mellojoy%20%E3%83%A1%E3%83%AD%E3%82%B8%E3%83%A7%E3%82%A4%20%E8%B4%85%E6%B2%A2%E3%82%B9%E3%83%95%E3%83%AC%20%E3%82%B9%E3%82%AF%E3%82%A4%E3%83%BC%E3%82%BA%E3%83%88%E3%82%A4%20%E3%83%96%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%89%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9%E3%81%AE%E3%81%8A/"
+      "url": "https://search.rakuten.co.jp/search/mall/4971404320741/"
      },
      {
       "label": "Yahoo!ショッピング",
-      "url": "https://shopping.yahoo.co.jp/search?p=Mellojoy%20%E3%83%A1%E3%83%AD%E3%82%B8%E3%83%A7%E3%82%A4%20%E8%B4%85%E6%B2%A2%E3%82%B9%E3%83%95%E3%83%AC%20%E3%82%B9%E3%82%AF%E3%82%A4%E3%83%BC%E3%82%BA%E3%83%88%E3%82%A4%20%E3%83%96%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%89%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9%E3%81%AE%E3%81%8A"
+      "url": "https://shopping.yahoo.co.jp/search?p=4971404320741"
+     },
+     {
+      "label": "Google（JANで横断）",
+      "url": "https://www.google.com/search?q=4971404320741"
      },
      {
       "label": "メーカー公式を探す",
-      "url": "https://www.google.com/search?q=%E3%83%8E%E3%83%BC%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89%E5%93%81%20%E3%80%90Z001-3%E3%80%91%E6%8A%B9%E8%8C%B6%E3%82%B9%E3%83%95%E3%83%AC%20%E5%85%AC%E5%BC%8F%20%E9%80%9A%E8%B2%A9"
+      "url": "https://www.google.com/search?q=%E3%82%A2%E3%82%AC%E3%83%84%E3%83%9E%28AGATSUMA%29%204971404320741%20%E5%85%AC%E5%BC%8F%20%E9%80%9A%E8%B2%A9"
      }
     ]
    },
@@ -1990,42 +1997,42 @@
   },
   {
    "rank": 23,
-   "asin": "B0HC1CMX7V",
-   "title": "[BANDAI] [バンダイ 仮面ライダーマイス DXショットボーンバックル＆ライドエグズ10セット 対象年齢 3 才以上",
+   "asin": "B0D623NZDQ",
+   "title": "[バンダイ(BANDAI)] はなしをきいて たくさん叫ぶよ！ おしゃべりうさぎ 対象年齢 6才以上",
    "category": "おもちゃ",
-   "image_url": "https://m.media-amazon.com/images/I/41SlpSmF4jL.jpg",
+   "image_url": "https://m.media-amazon.com/images/I/31XlKuiGd9L.jpg",
    "grade": "A",
-   "score": 94.1,
-   "headline": "1か月におよそ800個売れているペースです（推定）。送料込み2,719円までなら仕入れてOKです。",
+   "score": 88.9,
+   "headline": "1か月におよそ200個売れているペースです（推定）。送料込み14,055円までなら仕入れてOKです。",
    "reasons": [
-    "1か月におよそ800個売れているペースです（Keepaのデータからの推定で、実売数ではありません）",
-    "送料込み2,719円までなら、手数料を引いても利益が残る計算です（手数料を引いて1,000円が残る計算）",
-    "いまの値段は90日の平均（4,146円）より16%高めです",
-    "カテゴリーのランキングは37位です"
+    "1か月におよそ200個売れているペースです（Keepaのデータからの推定で、実売数ではありません）",
+    "送料込み14,055円までなら、手数料を引いても利益が残る計算です（手数料を引いて1,000円が残る計算）",
+    "出品者は90日前の40人から3人に減っています（ライバルが減っています）",
+    "いまの値段は90日の平均（8,534円）より106%高めです",
+    "この90日で出品者の数が436回動きました（売れて在庫が入れ替わっているサイン）",
+    "カテゴリーのランキングは313位です"
    ],
    "cautions": [
-    "いまの価格は90日平均（約4,146円）より16%高めです。平均に戻ると利益が減ります。",
-    "値段はカート価格ではなく推定です。Amazonで実際の販売価格を確かめてください。",
-    "BANDAIは真贋調査・知的財産の申し立てを受けやすいと言われるブランドです。仕入れる場合は正規店の領収書を保管してください。",
-    "データが足りない項目があります: 売れている証拠。その分は判定から外して計算しています。"
+    "いまの価格は90日平均（約8,534円）より106%高めです。平均に戻ると利益が減ります。",
+    "BANDAIは真贋調査・知的財産の申し立てを受けやすいと言われるブランドです。仕入れる場合は正規店の領収書を保管してください。"
    ],
    "metrics": {
-    "price_yen": 4800,
-    "price_is_cart": false,
-    "sales_rank": 37,
-    "est_monthly_sold": 800,
-    "seller_count_now": 27,
-    "seller_count_90d_ago": null,
-    "price_vs_avg90_pct": 15.8,
-    "data_updated_at": "2026-09-11T21:54:34.779992+00:00",
+    "price_yen": 17600,
+    "price_is_cart": true,
+    "sales_rank": 313,
+    "est_monthly_sold": 200,
+    "seller_count_now": 3,
+    "seller_count_90d_ago": 40,
+    "price_vs_avg90_pct": 106.2,
+    "data_updated_at": "2026-09-11T21:54:34.823730+00:00",
     "data_stale": false
    },
    "ceiling": {
-    "ceiling_yen": 2719,
+    "ceiling_yen": 14055,
     "conditional": false,
     "breakdown": {
-     "sale_price_yen": 4800,
-     "referral_fee_yen": 549,
+     "sale_price_yen": 17600,
+     "referral_fee_yen": 2013,
      "fba_fee_yen": 532,
      "misc_cost_yen": 0,
      "target_profit_yen": 1000,
@@ -2034,47 +2041,51 @@
     "note": "概算です。確定額はセラーセントラルの手数料シミュレーターで確認してください。"
    },
    "links": {
-    "amazon_url": "https://www.amazon.co.jp/dp/B0HC1CMX7V",
-    "keepa_url": "https://keepa.com/#!product/5-B0HC1CMX7V",
+    "amazon_url": "https://www.amazon.co.jp/dp/B0D623NZDQ",
+    "keepa_url": "https://keepa.com/#!product/5-B0D623NZDQ",
     "sourcing": [
      {
       "label": "価格.com",
-      "url": "https://search.kakaku.com/4582770021394/"
+      "url": "https://search.kakaku.com/4570118242662/"
      },
      {
       "label": "ヨドバシ.com",
-      "url": "https://www.yodobashi.com/?word=%E3%83%90%E3%83%B3%E3%83%80%E3%82%A4%20%E4%BB%AE%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC%E3%83%9E%E3%82%A4%E3%82%B9%20DX%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%E3%83%9C%E3%83%BC%E3%83%B3%E3%83%90%E3%83%83%E3%82%AF%E3%83%AB%EF%BC%86%E3%83%A9%E3%82%A4%E3%83%89%E3%82%A8%E3%82%B0%E3%82%BA10%E3%82%BB%E3%83%83%E3%83%88"
+      "url": "https://www.yodobashi.com/?word=%E3%81%AF%E3%81%AA%E3%81%97%E3%82%92%E3%81%8D%E3%81%84%E3%81%A6%20%E3%81%9F%E3%81%8F%E3%81%95%E3%82%93%E5%8F%AB%E3%81%B6%E3%82%88%EF%BC%81%20%E3%81%8A%E3%81%97%E3%82%83%E3%81%B9%E3%82%8A%E3%81%86%E3%81%95%E3%81%8E%20%E5%AF%BE%E8%B1%A1%E5%B9%B4%E9%BD%A2%206%E6%89%8D%E4%BB%A5%E4%B8%8A"
      },
      {
       "label": "ビックカメラ",
-      "url": "https://www.biccamera.com/bc/category/?q=%83o%83%93%83_%83C%20%89%BC%96%CA%83%89%83C%83_%81%5B%83%7D%83C%83X%20DX%83V%83%87%83b%83g%83%7B%81%5B%83%93%83o%83b%83N%83%8B%81%95%83%89%83C%83h%83G%83O%83Y10%83Z%83b%83g"
+      "url": "https://www.biccamera.com/bc/category/?q=%82%CD%82%C8%82%B5%82%F0%82%AB%82%A2%82%C4%20%82%BD%82%AD%82%B3%82%F1%8B%A9%82%D4%82%E6%81I%20%82%A8%82%B5%82%E1%82%D7%82%E8%82%A4%82%B3%82%AC%20%91%CE%8F%DB%94N%97%EE%206%8D%CB%88%C8%8F%E3"
      },
      {
       "label": "ヤマダウェブコム",
-      "url": "https://www.yamada-denkiweb.com/search/%E3%83%90%E3%83%B3%E3%83%80%E3%82%A4%20%E4%BB%AE%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC%E3%83%9E%E3%82%A4%E3%82%B9%20DX%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%E3%83%9C%E3%83%BC%E3%83%B3%E3%83%90%E3%83%83%E3%82%AF%E3%83%AB%EF%BC%86%E3%83%A9%E3%82%A4%E3%83%89%E3%82%A8%E3%82%B0%E3%82%BA10%E3%82%BB%E3%83%83%E3%83%88/"
+      "url": "https://www.yamada-denkiweb.com/search/%E3%81%AF%E3%81%AA%E3%81%97%E3%82%92%E3%81%8D%E3%81%84%E3%81%A6%20%E3%81%9F%E3%81%8F%E3%81%95%E3%82%93%E5%8F%AB%E3%81%B6%E3%82%88%EF%BC%81%20%E3%81%8A%E3%81%97%E3%82%83%E3%81%B9%E3%82%8A%E3%81%86%E3%81%95%E3%81%8E%20%E5%AF%BE%E8%B1%A1%E5%B9%B4%E9%BD%A2%206%E6%89%8D%E4%BB%A5%E4%B8%8A/"
      },
      {
       "label": "楽天市場",
-      "url": "https://search.rakuten.co.jp/search/mall/4582770021394/"
+      "url": "https://search.rakuten.co.jp/search/mall/4570118242662/"
      },
      {
       "label": "Yahoo!ショッピング",
-      "url": "https://shopping.yahoo.co.jp/search?p=4582770021394"
+      "url": "https://shopping.yahoo.co.jp/search?p=4570118242662"
      },
      {
       "label": "Google（JANで横断）",
-      "url": "https://www.google.com/search?q=4582770021394"
+      "url": "https://www.google.com/search?q=4570118242662"
      },
      {
       "label": "メーカー公式を探す",
-      "url": "https://www.google.com/search?q=BANDAI%20%E3%83%90%E3%83%B3%E3%83%80%E3%82%A4%20%E4%BB%AE%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC%E3%83%9E%E3%82%A4%E3%82%B9%20DX%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%E3%83%9C%E3%83%BC%E3%83%B3%E3%83%90%E3%83%83%E3%82%AF%E3%83%AB%EF%BC%86%E3%83%A9%E3%82%A4%E3%83%89%E3%82%A8%E3%82%B0%E3%82%BA10%E3%82%BB%E3%83%83%E3%83%88%20%E5%85%AC%E5%BC%8F%20%E9%80%9A%E8%B2%A9"
+      "url": "https://www.google.com/search?q=BANDAI%20%E3%81%AF%E3%81%AA%E3%81%97%E3%82%92%E3%81%8D%E3%81%84%E3%81%A6%20%E3%81%9F%E3%81%8F%E3%81%95%E3%82%93%E5%8F%AB%E3%81%B6%E3%82%88%EF%BC%81%20%E3%81%8A%E3%81%97%E3%82%83%E3%81%B9%E3%82%8A%E3%81%86%E3%81%95%E3%81%8E%20%E5%AF%BE%E8%B1%A1%E5%B9%B4%E9%BD%A2%206%E6%89%8D%E4%BB%A5%E4%B8%8A%20%E5%85%AC%E5%BC%8F%20%E9%80%9A%E8%B2%A9"
      }
     ]
    },
    "variations": [
     {
-     "asin": "B0HC1CX9ZT",
-     "title": "[BANDAI] [バンダイ 仮面ライダーマイス DXバイトボーンバックル＆ライドエグズ6セット 対象年齢 3 才以上"
+     "asin": "B0F9W7NLJM",
+     "title": "[バンダイ(BANDAI)] おもいっきりかわいこぶってやる！おしゃべりモモンガ 【日本おもちゃ大賞2025ベーシック部門優秀賞】 ちいかわ なんか小さくてかわいいやつ 対象年齢 6 才以上"
+    },
+    {
+     "asin": "B0C5X4PC5B",
+     "title": "[バンダイ(BANDAI)] ずっといっしょ おうえんしてね おしゃべりちいかわ 対象年齢 6才以上"
     }
    ],
    "listing": {
@@ -2084,134 +2095,42 @@
   },
   {
    "rank": 24,
-   "asin": "B0CTZJXM11",
-   "title": "KIOXIA(キオクシア) 旧東芝メモリ microSD 512GB UHS-I Class10 (最大読出速度100MB/s) Nintendo Switch動作確認済 国内サポート正規品 メーカー保証5年 KLMEA512G",
+   "asin": "B09ZHLCBYK",
+   "title": "GPC Image Flex BC-360XL 361XL キャノン 用 360 361 インク 純正大容量より35％up TS5430 TS5330",
    "category": "パソコン・周辺機器",
-   "image_url": "https://m.media-amazon.com/images/I/4177ajznrnL.jpg",
+   "image_url": "https://m.media-amazon.com/images/I/41ES6PGpTKL.jpg",
    "grade": "A",
-   "score": 92.7,
-   "headline": "1か月におよそ1,000個売れているペースです（推定）。送料込み9,493円までなら仕入れてOKです。",
+   "score": 88.5,
+   "headline": "1か月におよそ500個売れているペースです（推定）。送料込み4,624円までなら仕入れてOKです。",
    "reasons": [
-    "1か月におよそ1,000個売れているペースです（Keepaのデータからの推定で、実売数ではありません）",
-    "送料込み9,493円までなら、手数料を引いても利益が残る計算です（手数料を引いて1,000円が残る計算）",
-    "出品者は90日前の26人から35人に増えています（ライバルが増えています）",
-    "いまの値段は90日の平均（12,714円）とほぼ同じです",
-    "この90日で出品者の数が712回動きました（売れて在庫が入れ替わっているサイン）",
-    "カテゴリーのランキングは1位です"
+    "1か月におよそ500個売れているペースです（Keepaのデータからの推定で、実売数ではありません）",
+    "送料込み4,624円までなら、手数料を引いても利益が残る計算です（手数料を引いて1,000円が残る計算）",
+    "出品者は90日前の3人から2人に減っています（ライバルが減っています）",
+    "いまの値段は90日の平均（5,965円）より24%高めです",
+    "この90日で出品者の数が47回動きました（売れて在庫が入れ替わっているサイン）",
+    "カテゴリーのランキングは777位です"
    ],
    "cautions": [
+    "いまの価格は90日平均（約5,965円）より24%高めです。平均に戻ると利益が減ります。",
     "値段はカート価格ではなく推定です。Amazonで実際の販売価格を確かめてください。"
    ],
    "metrics": {
-    "price_yen": 12980,
+    "price_yen": 7411,
     "price_is_cart": false,
-    "sales_rank": 1,
-    "est_monthly_sold": 1000,
-    "seller_count_now": 35,
-    "seller_count_90d_ago": 26,
-    "price_vs_avg90_pct": 2.1,
-    "data_updated_at": "2026-09-11T21:54:34.189032+00:00",
+    "sales_rank": 777,
+    "est_monthly_sold": 500,
+    "seller_count_now": 2,
+    "seller_count_90d_ago": 3,
+    "price_vs_avg90_pct": 24.2,
+    "data_updated_at": "2026-09-11T21:56:10.626121+00:00",
     "data_stale": false
    },
    "ceiling": {
-    "ceiling_yen": 9493,
+    "ceiling_yen": 4624,
     "conditional": false,
     "breakdown": {
-     "sale_price_yen": 12980,
-     "referral_fee_yen": 2199,
-     "fba_fee_yen": 288,
-     "misc_cost_yen": 0,
-     "target_profit_yen": 1000,
-     "size_label": "小型"
-    },
-    "note": "概算です。確定額はセラーセントラルの手数料シミュレーターで確認してください。"
-   },
-   "links": {
-    "amazon_url": "https://www.amazon.co.jp/dp/B0CTZJXM11",
-    "keepa_url": "https://keepa.com/#!product/5-B0CTZJXM11",
-    "sourcing": [
-     {
-      "label": "価格.com",
-      "url": "https://search.kakaku.com/4582563858626/"
-     },
-     {
-      "label": "ヨドバシ.com(型番)",
-      "url": "https://www.google.com/search?q=site%3Ayodobashi.com%20KIOXIA%20KLMEA512G"
-     },
-     {
-      "label": "ビックカメラ(型番)",
-      "url": "https://www.google.com/search?q=site%3Abiccamera.com%20KIOXIA%20KLMEA512G"
-     },
-     {
-      "label": "ヤマダウェブコム(型番)",
-      "url": "https://www.google.com/search?q=site%3Ayamada-denkiweb.com%20KIOXIA%20KLMEA512G"
-     },
-     {
-      "label": "楽天市場",
-      "url": "https://search.rakuten.co.jp/search/mall/4582563858626/"
-     },
-     {
-      "label": "Yahoo!ショッピング",
-      "url": "https://shopping.yahoo.co.jp/search?p=4582563858626"
-     },
-     {
-      "label": "Google（JANで横断）",
-      "url": "https://www.google.com/search?q=4582563858626"
-     },
-     {
-      "label": "メーカー公式を探す",
-      "url": "https://www.google.com/search?q=KIOXIA%20KLMEA512G%20%E5%85%AC%E5%BC%8F%20%E9%80%9A%E8%B2%A9"
-     }
-    ]
-   },
-   "variations": [
-    {
-     "asin": "B0DPZWDSXP",
-     "title": "KIOXIA(キオクシア) 旧東芝メモリ microSD 512GB EXCERIA PLUS UHS-I U3 V30 Class10 Nintendo Switch動作確認済 microSDXC 最大読出100MB/s 最大書込85MB/s 4K対応 国内サポート正規品 メーカー保証5年 KLMPAE512G"
-    }
-   ],
-   "listing": {
-    "is_new_today": true,
-    "streak_days": 1
-   }
-  },
-  {
-   "rank": 25,
-   "asin": "B0GXHSSCFK",
-   "title": "バンダイ(BANDAI) ガンダムカードゲーム ブースターパック Freedom Ascension[GD05] (BOX)24パック入り",
-   "category": "おもちゃ",
-   "image_url": "https://m.media-amazon.com/images/I/51F+ojLwY1L.jpg",
-   "grade": "A",
-   "score": 92.3,
-   "headline": "1か月におよそ1,000個売れているペースです（推定）。送料込み7,147円までなら仕入れてOKです。",
-   "reasons": [
-    "1か月におよそ1,000個売れているペースです（Keepaのデータからの推定で、実売数ではありません）",
-    "送料込み7,147円までなら、手数料を引いても利益が残る計算です（手数料を引いて1,000円が残る計算）",
-    "出品者は90日前の18人から30人に増えています（ライバルが増えています）",
-    "いまの値段は90日の平均（9,733円）とほぼ同じです",
-    "この90日で出品者の数が1154回動きました（売れて在庫が入れ替わっているサイン）",
-    "カテゴリーのランキングは48位です"
-   ],
-   "cautions": [
-    "BANDAIは真贋調査・知的財産の申し立てを受けやすいと言われるブランドです。仕入れる場合は正規店の領収書を保管してください。"
-   ],
-   "metrics": {
-    "price_yen": 9800,
-    "price_is_cart": true,
-    "sales_rank": 48,
-    "est_monthly_sold": 1000,
-    "seller_count_now": 30,
-    "seller_count_90d_ago": 18,
-    "price_vs_avg90_pct": 0.8,
-    "data_updated_at": "2026-09-11T21:54:34.374134+00:00",
-    "data_stale": false
-   },
-   "ceiling": {
-    "ceiling_yen": 7147,
-    "conditional": false,
-    "breakdown": {
-     "sale_price_yen": 9800,
-     "referral_fee_yen": 1121,
+     "sale_price_yen": 7411,
+     "referral_fee_yen": 1255,
      "fba_fee_yen": 532,
      "misc_cost_yen": 0,
      "target_profit_yen": 1000,
@@ -2220,47 +2139,136 @@
     "note": "概算です。確定額はセラーセントラルの手数料シミュレーターで確認してください。"
    },
    "links": {
-    "amazon_url": "https://www.amazon.co.jp/dp/B0GXHSSCFK",
-    "keepa_url": "https://keepa.com/#!product/5-B0GXHSSCFK",
+    "amazon_url": "https://www.amazon.co.jp/dp/B09ZHLCBYK",
+    "keepa_url": "https://keepa.com/#!product/5-B09ZHLCBYK",
     "sourcing": [
      {
       "label": "価格.com",
-      "url": "https://search.kakaku.com/4582770012330/"
+      "url": "https://search.kakaku.com/0753459102466/"
      },
      {
       "label": "ヨドバシ.com(型番)",
-      "url": "https://www.google.com/search?q=site%3Ayodobashi.com%20BANDAI%20GD05"
+      "url": "https://www.google.com/search?q=site%3Ayodobashi.com%20GPC%20Image%20Flex%20pixus%20ts5430%20ts5330%20%E3%82%A4%E3%83%B3%E3%82%AF"
      },
      {
       "label": "ビックカメラ(型番)",
-      "url": "https://www.google.com/search?q=site%3Abiccamera.com%20BANDAI%20GD05"
+      "url": "https://www.google.com/search?q=site%3Abiccamera.com%20GPC%20Image%20Flex%20pixus%20ts5430%20ts5330%20%E3%82%A4%E3%83%B3%E3%82%AF"
      },
      {
       "label": "ヤマダウェブコム(型番)",
-      "url": "https://www.google.com/search?q=site%3Ayamada-denkiweb.com%20BANDAI%20GD05"
+      "url": "https://www.google.com/search?q=site%3Ayamada-denkiweb.com%20GPC%20Image%20Flex%20pixus%20ts5430%20ts5330%20%E3%82%A4%E3%83%B3%E3%82%AF"
      },
      {
       "label": "楽天市場",
-      "url": "https://search.rakuten.co.jp/search/mall/4582770012330/"
+      "url": "https://search.rakuten.co.jp/search/mall/0753459102466/"
      },
      {
       "label": "Yahoo!ショッピング",
-      "url": "https://shopping.yahoo.co.jp/search?p=4582770012330"
+      "url": "https://shopping.yahoo.co.jp/search?p=0753459102466"
      },
      {
       "label": "Google（JANで横断）",
-      "url": "https://www.google.com/search?q=4582770012330"
+      "url": "https://www.google.com/search?q=0753459102466"
      },
      {
       "label": "メーカー公式を探す",
-      "url": "https://www.google.com/search?q=BANDAI%20GD05%20%E5%85%AC%E5%BC%8F%20%E9%80%9A%E8%B2%A9"
+      "url": "https://www.google.com/search?q=GPC%20Image%20Flex%20pixus%20ts5430%20ts5330%20%E3%82%A4%E3%83%B3%E3%82%AF%20%E5%85%AC%E5%BC%8F%20%E9%80%9A%E8%B2%A9"
+     }
+    ]
+   },
+   "variations": [],
+   "listing": {
+    "is_new_today": true,
+    "streak_days": 1
+   }
+  },
+  {
+   "rank": 25,
+   "asin": "B07FBVX5WF",
+   "title": "ARTISAN NINJA FX ゼロ SOFT L ブラック (FX-ZR-SF-L)",
+   "category": "パソコン・周辺機器",
+   "image_url": "https://m.media-amazon.com/images/I/31py1mLxTOL.jpg",
+   "grade": "A",
+   "score": 88.5,
+   "headline": "1か月におよそ500個売れているペースです（推定）。送料込み2,978円までなら仕入れてOKです。",
+   "reasons": [
+    "1か月におよそ500個売れているペースです（Keepaのデータからの推定で、実売数ではありません）",
+    "送料込み2,978円までなら、手数料を引いても利益が残る計算です（手数料を引いて1,000円が残る計算）",
+    "出品者は90日前の5人から4人に減っています（ライバルが減っています）",
+    "いまの値段は90日の平均（4,839円）より12%高めです",
+    "この90日で出品者の数が65回動きました（売れて在庫が入れ替わっているサイン）",
+    "カテゴリーのランキングは677位です"
+   ],
+   "cautions": [
+    "いまの価格は90日平均（約4,839円）より12%高めです。平均に戻ると利益が減ります。",
+    "値段はカート価格ではなく推定です。Amazonで実際の販売価格を確かめてください。"
+   ],
+   "metrics": {
+    "price_yen": 5430,
+    "price_is_cart": false,
+    "sales_rank": 677,
+    "est_monthly_sold": 500,
+    "seller_count_now": 4,
+    "seller_count_90d_ago": 5,
+    "price_vs_avg90_pct": 12.2,
+    "data_updated_at": "2026-09-11T21:54:34.998583+00:00",
+    "data_stale": false
+   },
+   "ceiling": {
+    "ceiling_yen": 2978,
+    "conditional": false,
+    "breakdown": {
+     "sale_price_yen": 5430,
+     "referral_fee_yen": 920,
+     "fba_fee_yen": 532,
+     "misc_cost_yen": 0,
+     "target_profit_yen": 1000,
+     "size_label": "標準"
+    },
+    "note": "概算です。確定額はセラーセントラルの手数料シミュレーターで確認してください。"
+   },
+   "links": {
+    "amazon_url": "https://www.amazon.co.jp/dp/B07FBVX5WF",
+    "keepa_url": "https://keepa.com/#!product/5-B07FBVX5WF",
+    "sourcing": [
+     {
+      "label": "価格.com",
+      "url": "https://search.kakaku.com/4562332172900/"
+     },
+     {
+      "label": "ヨドバシ.com(型番)",
+      "url": "https://www.google.com/search?q=site%3Ayodobashi.com%20ARTISAN%20FX-ZR-SF-L"
+     },
+     {
+      "label": "ビックカメラ(型番)",
+      "url": "https://www.google.com/search?q=site%3Abiccamera.com%20ARTISAN%20FX-ZR-SF-L"
+     },
+     {
+      "label": "ヤマダウェブコム(型番)",
+      "url": "https://www.google.com/search?q=site%3Ayamada-denkiweb.com%20ARTISAN%20FX-ZR-SF-L"
+     },
+     {
+      "label": "楽天市場",
+      "url": "https://search.rakuten.co.jp/search/mall/4562332172900/"
+     },
+     {
+      "label": "Yahoo!ショッピング",
+      "url": "https://shopping.yahoo.co.jp/search?p=4562332172900"
+     },
+     {
+      "label": "Google（JANで横断）",
+      "url": "https://www.google.com/search?q=4562332172900"
+     },
+     {
+      "label": "メーカー公式を探す",
+      "url": "https://www.google.com/search?q=ARTISAN%20FX-ZR-SF-L%20%E5%85%AC%E5%BC%8F%20%E9%80%9A%E8%B2%A9"
      }
     ]
    },
    "variations": [
     {
-     "asin": "B0GHV3LK6F",
-     "title": "バンダイ(BANDAI) ガンダムカードゲーム ブースターパック Phantom Aria[GD04] (BOX)24パック入り"
+     "asin": "B07FBDLJPH",
+     "title": "ARTISAN NINJA FX ゼロ MID L (FX-ZR-MD-L)"
     }
    ],
    "listing": {
@@ -2270,43 +2278,42 @@
   },
   {
    "rank": 26,
-   "asin": "B0G4TJB6RD",
-   "title": "[バンダイ(BANDAI)] 仮面ライダーゼッツ 変身ベルト DXノクスドライバー 対象年齢 3 才以上",
+   "asin": "B0D91K2WMS",
+   "title": "BEYBLADE X ベイブレードX UX-06 ブースター レオンクレスト 7-60GN",
    "category": "おもちゃ",
-   "image_url": "https://m.media-amazon.com/images/I/41i7wf-L-pL.jpg",
+   "image_url": "https://m.media-amazon.com/images/I/51EbyK4umBL.jpg",
    "grade": "A",
-   "score": 91.9,
-   "headline": "1か月におよそ800個売れているペースです（推定）。送料込み3,250円までなら仕入れてOKです。",
+   "score": 86.8,
+   "headline": "1か月におよそ200個売れているペースです（推定）。送料込み4,384円までなら仕入れてOKです。",
    "reasons": [
-    "1か月におよそ800個売れているペースです（Keepaのデータからの推定で、実売数ではありません）",
-    "送料込み3,250円までなら、手数料を引いても利益が残る計算です（手数料を引いて1,000円が残る計算）",
-    "出品者は90日前の16人から23人に増えています（ライバルが増えています）",
-    "いまの値段は90日の平均（4,416円）より22%高めです",
-    "この90日で出品者の数が114回動きました（売れて在庫が入れ替わっているサイン）",
-    "カテゴリーのランキングは613位です"
+    "1か月におよそ200個売れているペースです（Keepaのデータからの推定で、実売数ではありません）",
+    "送料込み4,384円までなら、手数料を引いても利益が残る計算です（手数料を引いて1,000円が残る計算）",
+    "出品者は90日前の9人から4人に減っています（ライバルが減っています）",
+    "いまの値段は90日の平均（5,086円）より31%高めです",
+    "この90日で出品者の数が170回動きました（売れて在庫が入れ替わっているサイン）",
+    "カテゴリーのランキングは3位です"
    ],
    "cautions": [
-    "いまの価格は90日平均（約4,416円）より22%高めです。平均に戻ると利益が減ります。",
-    "値段はカート価格ではなく推定です。Amazonで実際の販売価格を確かめてください。",
-    "BANDAIは真贋調査・知的財産の申し立てを受けやすいと言われるブランドです。仕入れる場合は正規店の領収書を保管してください。"
+    "いまの価格は90日平均（約5,086円）より31%高めです。平均に戻ると利益が減ります。",
+    "TAKARA TOMYは真贋調査・知的財産の申し立てを受けやすいと言われるブランドです。仕入れる場合は正規店の領収書を保管してください。"
    ],
    "metrics": {
-    "price_yen": 5400,
-    "price_is_cart": false,
-    "sales_rank": 613,
-    "est_monthly_sold": 800,
-    "seller_count_now": 23,
-    "seller_count_90d_ago": 16,
-    "price_vs_avg90_pct": 22.3,
-    "data_updated_at": "2026-09-11T21:54:34.433600+00:00",
+    "price_yen": 6680,
+    "price_is_cart": true,
+    "sales_rank": 3,
+    "est_monthly_sold": 200,
+    "seller_count_now": 4,
+    "seller_count_90d_ago": 9,
+    "price_vs_avg90_pct": 31.3,
+    "data_updated_at": "2026-09-11T21:54:35.058516+00:00",
     "data_stale": false
    },
    "ceiling": {
-    "ceiling_yen": 3250,
+    "ceiling_yen": 4384,
     "conditional": false,
     "breakdown": {
-     "sale_price_yen": 5400,
-     "referral_fee_yen": 618,
+     "sale_price_yen": 6680,
+     "referral_fee_yen": 764,
      "fba_fee_yen": 532,
      "misc_cost_yen": 0,
      "target_profit_yen": 1000,
@@ -2315,47 +2322,59 @@
     "note": "概算です。確定額はセラーセントラルの手数料シミュレーターで確認してください。"
    },
    "links": {
-    "amazon_url": "https://www.amazon.co.jp/dp/B0G4TJB6RD",
-    "keepa_url": "https://keepa.com/#!product/5-B0G4TJB6RD",
+    "amazon_url": "https://www.amazon.co.jp/dp/B0D91K2WMS",
+    "keepa_url": "https://keepa.com/#!product/5-B0D91K2WMS",
     "sourcing": [
      {
       "label": "価格.com",
-      "url": "https://search.kakaku.com/4582769902635/"
+      "url": "https://search.kakaku.com/4904810914600/"
      },
      {
       "label": "ヨドバシ.com(型番)",
-      "url": "https://www.google.com/search?q=site%3Ayodobashi.com%20BANDAI%20B0G4TJB6RD"
+      "url": "https://www.google.com/search?q=site%3Ayodobashi.com%20%E3%82%BF%E3%82%AB%E3%83%A9%E3%83%88%E3%83%9F%E3%83%BC%20UX-06"
      },
      {
       "label": "ビックカメラ(型番)",
-      "url": "https://www.google.com/search?q=site%3Abiccamera.com%20BANDAI%20B0G4TJB6RD"
+      "url": "https://www.google.com/search?q=site%3Abiccamera.com%20%E3%82%BF%E3%82%AB%E3%83%A9%E3%83%88%E3%83%9F%E3%83%BC%20UX-06"
      },
      {
       "label": "ヤマダウェブコム(型番)",
-      "url": "https://www.google.com/search?q=site%3Ayamada-denkiweb.com%20BANDAI%20B0G4TJB6RD"
+      "url": "https://www.google.com/search?q=site%3Ayamada-denkiweb.com%20%E3%82%BF%E3%82%AB%E3%83%A9%E3%83%88%E3%83%9F%E3%83%BC%20UX-06"
      },
      {
       "label": "楽天市場",
-      "url": "https://search.rakuten.co.jp/search/mall/4582769902635/"
+      "url": "https://search.rakuten.co.jp/search/mall/4904810914600/"
      },
      {
       "label": "Yahoo!ショッピング",
-      "url": "https://shopping.yahoo.co.jp/search?p=4582769902635"
+      "url": "https://shopping.yahoo.co.jp/search?p=4904810914600"
      },
      {
       "label": "Google（JANで横断）",
-      "url": "https://www.google.com/search?q=4582769902635"
+      "url": "https://www.google.com/search?q=4904810914600"
      },
      {
       "label": "メーカー公式を探す",
-      "url": "https://www.google.com/search?q=BANDAI%20B0G4TJB6RD%20%E5%85%AC%E5%BC%8F%20%E9%80%9A%E8%B2%A9"
+      "url": "https://www.google.com/search?q=%E3%82%BF%E3%82%AB%E3%83%A9%E3%83%88%E3%83%9F%E3%83%BC%28TAKARA%20TOMY%29%20UX-06%20%E5%85%AC%E5%BC%8F%20%E9%80%9A%E8%B2%A9"
      }
     ]
    },
    "variations": [
     {
-     "asin": "B0H1PW3DMD",
-     "title": "[BANDAI] [バンダイ 仮面ライダーゼッツ 変身ベルト DXノクスドライバー&ミッドナイトシャドウカプセム スペシャルなりきりセット 対象年齢 3 才以上"
+     "asin": "B0DSKBG6VF",
+     "title": "BEYBLADE X ベイブレードX UX-13 ブースター ゴーレムロック1-60UN"
+    },
+    {
+     "asin": "B0DMS96VW3",
+     "title": "BEYBLADE X ベイブレードX UX-12 ランダムブースターVol.5"
+    },
+    {
+     "asin": "B0CV7HF3W6",
+     "title": "BEYBLADE X ベイブレードX UX-01 スターター ドランバスター 1-60A"
+    },
+    {
+     "asin": "B0D1B1CT2J",
+     "title": "BEYBLADE X ベイブレードX UX-05 ランダムブースター シノビシャドウセレクト"
     }
    ],
    "listing": {
@@ -2365,84 +2384,84 @@
   },
   {
    "rank": 27,
-   "asin": "B0GWCQJPB8",
-   "title": "[BANDAI] [バンダイ 仮面ライダーゼッツ DXエクスドリームライズカプセム&ゼッツエクスドリームドライバーバックル 対象年齢 3 才以上",
-   "category": "おもちゃ",
-   "image_url": "https://m.media-amazon.com/images/I/41-TxyCLk1L.jpg",
+   "asin": "B0F3VTCZK8",
+   "title": "Samsung microSD Express Card 256GB Nintendo Switch 2用",
+   "category": "パソコン・周辺機器",
+   "image_url": "https://m.media-amazon.com/images/I/41M+RSWBsTL.jpg",
    "grade": "A",
-   "score": 91.7,
-   "headline": "1か月におよそ300個売れているペースです（推定）。送料込み5,774円までなら仕入れてOKです。",
+   "score": 86.4,
+   "headline": "1か月におよそ300個売れているペースです（推定）。送料込み5,839円までなら仕入れてOKです。",
    "reasons": [
     "1か月におよそ300個売れているペースです（Keepaのデータからの推定で、実売数ではありません）",
-    "送料込み5,774円までなら、手数料を引いても利益が残る計算です（手数料を引いて1,000円が残る計算）",
-    "出品者は90日前の41人から22人に減っています（ライバルが減っています）",
-    "いまの値段は90日の平均（5,617円）より42%高めです",
-    "この90日で出品者の数が408回動きました（売れて在庫が入れ替わっているサイン）",
-    "カテゴリーのランキングは2,042位です"
+    "送料込み5,839円までなら、手数料を引いても利益が残る計算です（手数料を引いて1,000円が残る計算）",
+    "出品者は90日前の7人から20人に増えています（ライバルが増えています）",
+    "いまの値段は90日の平均（7,319円）より17%高めです",
+    "この90日で出品者の数が157回動きました（売れて在庫が入れ替わっているサイン）",
+    "カテゴリーのランキングは1,663位です"
    ],
    "cautions": [
-    "いまの価格は90日平均（約5,617円）より42%高めです。平均に戻ると利益が減ります。",
-    "BANDAIは真贋調査・知的財産の申し立てを受けやすいと言われるブランドです。仕入れる場合は正規店の領収書を保管してください。"
+    "いまの価格は90日平均（約7,319円）より17%高めです。平均に戻ると利益が減ります。",
+    "任天堂は真贋調査・知的財産の申し立てを受けやすいと言われるブランドです。仕入れる場合は正規店の領収書を保管してください。"
    ],
    "metrics": {
-    "price_yen": 8250,
+    "price_yen": 8580,
     "price_is_cart": true,
-    "sales_rank": 2042,
+    "sales_rank": 1663,
     "est_monthly_sold": 300,
-    "seller_count_now": 22,
-    "seller_count_90d_ago": 41,
-    "price_vs_avg90_pct": 42.1,
-    "data_updated_at": "2026-09-11T21:54:34.355974+00:00",
+    "seller_count_now": 20,
+    "seller_count_90d_ago": 7,
+    "price_vs_avg90_pct": 17.2,
+    "data_updated_at": "2026-09-11T21:54:35.148511+00:00",
     "data_stale": false
    },
    "ceiling": {
-    "ceiling_yen": 5774,
+    "ceiling_yen": 5839,
     "conditional": false,
     "breakdown": {
-     "sale_price_yen": 8250,
-     "referral_fee_yen": 944,
-     "fba_fee_yen": 532,
+     "sale_price_yen": 8580,
+     "referral_fee_yen": 1453,
+     "fba_fee_yen": 288,
      "misc_cost_yen": 0,
      "target_profit_yen": 1000,
-     "size_label": "標準"
+     "size_label": "小型"
     },
     "note": "概算です。確定額はセラーセントラルの手数料シミュレーターで確認してください。"
    },
    "links": {
-    "amazon_url": "https://www.amazon.co.jp/dp/B0GWCQJPB8",
-    "keepa_url": "https://keepa.com/#!product/5-B0GWCQJPB8",
+    "amazon_url": "https://www.amazon.co.jp/dp/B0F3VTCZK8",
+    "keepa_url": "https://keepa.com/#!product/5-B0F3VTCZK8",
     "sourcing": [
      {
       "label": "価格.com",
-      "url": "https://search.kakaku.com/4582770017458/"
+      "url": "https://search.kakaku.com/0198957108983/"
      },
      {
-      "label": "ヨドバシ.com",
-      "url": "https://www.yodobashi.com/?word=%E3%83%90%E3%83%B3%E3%83%80%E3%82%A4%20%E4%BB%AE%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC%E3%82%BC%E3%83%83%E3%83%84%20DX%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%82%BA%E3%82%AB%E3%83%97%E3%82%BB%E3%83%A0%20%E3%82%BC%E3%83%83%E3%83%84%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%89%E3%83%AA"
+      "label": "ヨドバシ.com(型番)",
+      "url": "https://www.google.com/search?q=site%3Ayodobashi.com%20%E4%BB%BB%E5%A4%A9%E5%A0%82%20BEEASD01B"
      },
      {
-      "label": "ビックカメラ",
-      "url": "https://www.biccamera.com/bc/category/?q=%83o%83%93%83_%83C%20%89%BC%96%CA%83%89%83C%83_%81%5B%83%5B%83b%83c%20DX%83G%83N%83X%83h%83%8A%81%5B%83%80%83%89%83C%83Y%83J%83v%83Z%83%80%20%83%5B%83b%83c%83G%83N%83X%83h%83%8A"
+      "label": "ビックカメラ(型番)",
+      "url": "https://www.google.com/search?q=site%3Abiccamera.com%20%E4%BB%BB%E5%A4%A9%E5%A0%82%20BEEASD01B"
      },
      {
-      "label": "ヤマダウェブコム",
-      "url": "https://www.yamada-denkiweb.com/search/%E3%83%90%E3%83%B3%E3%83%80%E3%82%A4%20%E4%BB%AE%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC%E3%82%BC%E3%83%83%E3%83%84%20DX%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%82%BA%E3%82%AB%E3%83%97%E3%82%BB%E3%83%A0%20%E3%82%BC%E3%83%83%E3%83%84%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%89%E3%83%AA/"
+      "label": "ヤマダウェブコム(型番)",
+      "url": "https://www.google.com/search?q=site%3Ayamada-denkiweb.com%20%E4%BB%BB%E5%A4%A9%E5%A0%82%20BEEASD01B"
      },
      {
       "label": "楽天市場",
-      "url": "https://search.rakuten.co.jp/search/mall/4582770017458/"
+      "url": "https://search.rakuten.co.jp/search/mall/0198957108983/"
      },
      {
       "label": "Yahoo!ショッピング",
-      "url": "https://shopping.yahoo.co.jp/search?p=4582770017458"
+      "url": "https://shopping.yahoo.co.jp/search?p=0198957108983"
      },
      {
       "label": "Google（JANで横断）",
-      "url": "https://www.google.com/search?q=4582770017458"
+      "url": "https://www.google.com/search?q=0198957108983"
      },
      {
       "label": "メーカー公式を探す",
-      "url": "https://www.google.com/search?q=BANDAI%20%E3%83%90%E3%83%B3%E3%83%80%E3%82%A4%20%E4%BB%AE%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC%E3%82%BC%E3%83%83%E3%83%84%20DX%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%82%BA%E3%82%AB%E3%83%97%E3%82%BB%E3%83%A0%20%E3%82%BC%E3%83%83%E3%83%84%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%89%E3%83%AA%20%E5%85%AC%E5%BC%8F%20%E9%80%9A%E8%B2%A9"
+      "url": "https://www.google.com/search?q=%E4%BB%BB%E5%A4%A9%E5%A0%82%20BEEASD01B%20%E5%85%AC%E5%BC%8F%20%E9%80%9A%E8%B2%A9"
      }
     ]
    },
@@ -2454,43 +2473,41 @@
   },
   {
    "rank": 28,
-   "asin": "B0GYC59QQ8",
-   "title": "タカラトミー(TAKARA TOMY) トイ･ストーリー リアルサイズトーキングフィギュア ジェシー",
+   "asin": "B0GS4F6977",
+   "title": "タカラトミー(TAKARA TOMY) BEYBLADE X ベイブレードX UX-19 スターター バレットグリフォンH",
    "category": "おもちゃ",
-   "image_url": "https://m.media-amazon.com/images/I/41BET65iQ0L.jpg",
+   "image_url": "https://m.media-amazon.com/images/I/51l6Lty6l1L.jpg",
    "grade": "A",
-   "score": 90.7,
-   "headline": "1か月におよそ400個売れているペースです（推定）。送料込み7,767円までなら仕入れてOKです。",
+   "score": 85.3,
+   "headline": "1か月におよそ1,000個売れているペースです（推定）。送料込み3,516円までなら仕入れてOKです。",
    "reasons": [
-    "1か月におよそ400個売れているペースです（Keepaのデータからの推定で、実売数ではありません）",
-    "送料込み7,767円までなら、手数料を引いても利益が残る計算です（手数料を引いて1,000円が残る計算）",
-    "出品者は90日前の7人から20人に増えています（ライバルが増えています）",
-    "いまの値段は90日の平均（8,665円）より21%高めです",
-    "この90日で出品者の数が448回動きました（売れて在庫が入れ替わっているサイン）",
-    "カテゴリーのランキングは44位です"
+    "1か月におよそ1,000個売れているペースです（Keepaのデータからの推定で、実売数ではありません）",
+    "送料込み3,516円までなら、手数料を引いても利益が残る計算です（手数料を引いて1,000円が残る計算）",
+    "出品者は90日前の35人から47人に増えています（ライバルが増えています）",
+    "いまの値段は90日の平均（6,013円）より5%安めです",
+    "この90日で出品者の数が1155回動きました（売れて在庫が入れ替わっているサイン）",
+    "カテゴリーのランキングは35位です"
    ],
    "cautions": [
-    "いまの価格は90日平均（約8,665円）より21%高めです。平均に戻ると利益が減ります。",
-    "値段はカート価格ではなく推定です。Amazonで実際の販売価格を確かめてください。",
     "TAKARA TOMYは真贋調査・知的財産の申し立てを受けやすいと言われるブランドです。仕入れる場合は正規店の領収書を保管してください。"
    ],
    "metrics": {
-    "price_yen": 10500,
-    "price_is_cart": false,
-    "sales_rank": 44,
-    "est_monthly_sold": 400,
-    "seller_count_now": 20,
-    "seller_count_90d_ago": 7,
-    "price_vs_avg90_pct": 21.2,
-    "data_updated_at": "2026-09-11T21:54:34.710113+00:00",
+    "price_yen": 5700,
+    "price_is_cart": true,
+    "sales_rank": 35,
+    "est_monthly_sold": 1000,
+    "seller_count_now": 47,
+    "seller_count_90d_ago": 35,
+    "price_vs_avg90_pct": -5.2,
+    "data_updated_at": "2026-09-11T21:54:35.247546+00:00",
     "data_stale": false
    },
    "ceiling": {
-    "ceiling_yen": 7767,
+    "ceiling_yen": 3516,
     "conditional": false,
     "breakdown": {
-     "sale_price_yen": 10500,
-     "referral_fee_yen": 1201,
+     "sale_price_yen": 5700,
+     "referral_fee_yen": 652,
      "fba_fee_yen": 532,
      "misc_cost_yen": 0,
      "target_profit_yen": 1000,
@@ -2499,49 +2516,44 @@
     "note": "概算です。確定額はセラーセントラルの手数料シミュレーターで確認してください。"
    },
    "links": {
-    "amazon_url": "https://www.amazon.co.jp/dp/B0GYC59QQ8",
-    "keepa_url": "https://keepa.com/#!product/5-B0GYC59QQ8",
+    "amazon_url": "https://www.amazon.co.jp/dp/B0GS4F6977",
+    "keepa_url": "https://keepa.com/#!product/5-B0GS4F6977",
     "sourcing": [
      {
       "label": "価格.com",
-      "url": "https://search.kakaku.com/4904810082095/"
+      "url": "https://search.kakaku.com/4904810096160/"
      },
      {
       "label": "ヨドバシ.com",
-      "url": "https://www.yodobashi.com/?word=%E3%82%BF%E3%82%AB%E3%83%A9%E3%83%88%E3%83%9F%E3%83%BC%20%E3%83%88%E3%82%A4%EF%BD%A5%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC%20%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%B5%E3%82%A4%E3%82%BA%E3%83%88%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2%20%E3%82%B8%E3%82%A7%E3%82%B7%E3%83%BC"
+      "url": "https://www.yodobashi.com/?word=%E3%82%BF%E3%82%AB%E3%83%A9%E3%83%88%E3%83%9F%E3%83%BC%20BEYBLADE%20X%20%E3%83%99%E3%82%A4%E3%83%96%E3%83%AC%E3%83%BC%E3%83%89X%20UX%2019"
      },
      {
       "label": "ビックカメラ",
-      "url": "https://www.biccamera.com/bc/category/?q=%83%5E%83J%83%89%83g%83~%81%5B%20%83g%83C%A5%83X%83g%81%5B%83%8A%81%5B%20%83%8A%83A%83%8B%83T%83C%83Y%83g%81%5B%83L%83%93%83O%83t%83B%83M%83%85%83A%20%83W%83F%83V%81%5B"
+      "url": "https://www.biccamera.com/bc/category/?q=%83%5E%83J%83%89%83g%83~%81%5B%20BEYBLADE%20X%20%83x%83C%83u%83%8C%81%5B%83hX%20UX%2019"
      },
      {
       "label": "ヤマダウェブコム",
-      "url": "https://www.yamada-denkiweb.com/search/%E3%82%BF%E3%82%AB%E3%83%A9%E3%83%88%E3%83%9F%E3%83%BC%20%E3%83%88%E3%82%A4%EF%BD%A5%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC%20%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%B5%E3%82%A4%E3%82%BA%E3%83%88%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2%20%E3%82%B8%E3%82%A7%E3%82%B7%E3%83%BC/"
+      "url": "https://www.yamada-denkiweb.com/search/%E3%82%BF%E3%82%AB%E3%83%A9%E3%83%88%E3%83%9F%E3%83%BC%20BEYBLADE%20X%20%E3%83%99%E3%82%A4%E3%83%96%E3%83%AC%E3%83%BC%E3%83%89X%20UX%2019/"
      },
      {
       "label": "楽天市場",
-      "url": "https://search.rakuten.co.jp/search/mall/4904810082095/"
+      "url": "https://search.rakuten.co.jp/search/mall/4904810096160/"
      },
      {
       "label": "Yahoo!ショッピング",
-      "url": "https://shopping.yahoo.co.jp/search?p=4904810082095"
+      "url": "https://shopping.yahoo.co.jp/search?p=4904810096160"
      },
      {
       "label": "Google（JANで横断）",
-      "url": "https://www.google.com/search?q=4904810082095"
+      "url": "https://www.google.com/search?q=4904810096160"
      },
      {
       "label": "メーカー公式を探す",
-      "url": "https://www.google.com/search?q=%E3%82%BF%E3%82%AB%E3%83%A9%E3%83%88%E3%83%9F%E3%83%BC%28TAKARA%20TOMY%29%20%E3%82%BF%E3%82%AB%E3%83%A9%E3%83%88%E3%83%9F%E3%83%BC%20%E3%83%88%E3%82%A4%EF%BD%A5%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC%20%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%B5%E3%82%A4%E3%82%BA%E3%83%88%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2%20%E3%82%B8%E3%82%A7%E3%82%B7%E3%83%BC%20%E5%85%AC%E5%BC%8F%20%E9%80%9A%E8%B2%A9"
+      "url": "https://www.google.com/search?q=%E3%82%BF%E3%82%AB%E3%83%A9%E3%83%88%E3%83%9F%E3%83%BC%28TAKARA%20TOMY%29%20%E3%82%BF%E3%82%AB%E3%83%A9%E3%83%88%E3%83%9F%E3%83%BC%20BEYBLADE%20X%20%E3%83%99%E3%82%A4%E3%83%96%E3%83%AC%E3%83%BC%E3%83%89X%20UX%2019%20%E5%85%AC%E5%BC%8F%20%E9%80%9A%E8%B2%A9"
      }
     ]
    },
-   "variations": [
-    {
-     "asin": "B0GYCNPLRR",
-     "title": "タカラトミー(TAKARA TOMY) トイ･ストーリー リアルサイズトーキングフィギュア フォーキー"
-    }
-   ],
+   "variations": [],
    "listing": {
     "is_new_today": true,
     "streak_days": 1
@@ -2549,83 +2561,84 @@
   },
   {
    "rank": 29,
-   "asin": "B0H4L58ZFR",
-   "title": "IODATA GigaCrysta ゲーミングモニター 23.8インチ FHD 240Hz リモコン付（HDMI/DP） EX-GD243UDB",
+   "asin": "B0B21G288Q",
+   "title": "【Amazon.co.jp限定】 SanDisk microSD カード 高耐久 SDSQQNR-064G-GH3IA 簡易デザインパッケージ",
    "category": "パソコン・周辺機器",
-   "image_url": "https://m.media-amazon.com/images/I/51dLBYo9IaL.jpg",
+   "image_url": "https://m.media-amazon.com/images/I/41ZOmQKkyTL.jpg",
    "grade": "A",
-   "score": 90.2,
-   "headline": "1か月におよそ300個売れているペースです（推定）。送料込み29,720円までなら仕入れてOKです。",
+   "score": 85.2,
+   "headline": "1か月におよそ500個売れているペースです（推定）。送料込み3,679円までなら仕入れてOKです。",
    "reasons": [
-    "1か月におよそ300個売れているペースです（Keepaのデータからの推定で、実売数ではありません）",
-    "送料込み29,720円までなら、手数料を引いても利益が残る計算です（手数料を引いて1,000円が残る計算）",
-    "いまの値段は90日の平均（22,186円）より76%高めです",
-    "カテゴリーのランキングは1,489位です"
+    "1か月におよそ500個売れているペースです（Keepaのデータからの推定で、実売数ではありません）",
+    "送料込み3,679円までなら、手数料を引いても利益が残る計算です（手数料を引いて1,000円が残る計算）",
+    "出品者は90日前から1人のままで変わっていません",
+    "いまの値段は90日の平均（5,376円）より11%高めです",
+    "この90日で出品者の数が107回動きました（売れて在庫が入れ替わっているサイン）",
+    "カテゴリーのランキングは252位です"
    ],
    "cautions": [
-    "いまの価格は90日平均（約22,186円）より76%高めです。平均に戻ると利益が減ります。",
-    "値段はカート価格ではなく推定です。Amazonで実際の販売価格を確かめてください。",
-    "データが足りない項目があります: 売れている証拠。その分は判定から外して計算しています。"
+    "いまの価格は90日平均（約5,376円）より11%高めです。平均に戻ると利益が減ります。",
+    "SanDiskは真贋調査・知的財産の申し立てを受けやすいと言われるブランドです。仕入れる場合は正規店の領収書を保管してください。"
    ],
    "metrics": {
-    "price_yen": 39100,
-    "price_is_cart": false,
-    "sales_rank": 1489,
-    "est_monthly_sold": 300,
-    "seller_count_now": 2,
-    "seller_count_90d_ago": null,
-    "price_vs_avg90_pct": 76.2,
-    "data_updated_at": "2026-09-11T21:54:34.785428+00:00",
+    "price_yen": 5980,
+    "price_is_cart": true,
+    "sales_rank": 252,
+    "est_monthly_sold": 500,
+    "seller_count_now": 1,
+    "seller_count_90d_ago": 1,
+    "price_vs_avg90_pct": 11.2,
+    "data_updated_at": "2026-09-11T21:54:35.458377+00:00",
     "data_stale": false
    },
    "ceiling": {
-    "ceiling_yen": 29720,
+    "ceiling_yen": 3679,
     "conditional": false,
     "breakdown": {
-     "sale_price_yen": 39100,
-     "referral_fee_yen": 6624,
-     "fba_fee_yen": 1756,
+     "sale_price_yen": 5980,
+     "referral_fee_yen": 1013,
+     "fba_fee_yen": 288,
      "misc_cost_yen": 0,
      "target_profit_yen": 1000,
-     "size_label": "大型"
+     "size_label": "小型"
     },
     "note": "概算です。確定額はセラーセントラルの手数料シミュレーターで確認してください。"
    },
    "links": {
-    "amazon_url": "https://www.amazon.co.jp/dp/B0H4L58ZFR",
-    "keepa_url": "https://keepa.com/#!product/5-B0H4L58ZFR",
+    "amazon_url": "https://www.amazon.co.jp/dp/B0B21G288Q",
+    "keepa_url": "https://keepa.com/#!product/5-B0B21G288Q",
     "sourcing": [
      {
       "label": "価格.com",
-      "url": "https://search.kakaku.com/4957180188614/"
+      "url": "https://search.kakaku.com/0619659197711/"
      },
      {
       "label": "ヨドバシ.com(型番)",
-      "url": "https://www.google.com/search?q=site%3Ayodobashi.com%20%E3%82%A2%E3%82%A4%E3%82%AA%E3%83%BC%E3%83%87%E3%83%BC%E3%82%BF%20EX-GD243UDB"
+      "url": "https://www.google.com/search?q=site%3Ayodobashi.com%20SanDisk%20SDSQQNR-064G-GH3IA"
      },
      {
       "label": "ビックカメラ(型番)",
-      "url": "https://www.google.com/search?q=site%3Abiccamera.com%20%E3%82%A2%E3%82%A4%E3%82%AA%E3%83%BC%E3%83%87%E3%83%BC%E3%82%BF%20EX-GD243UDB"
+      "url": "https://www.google.com/search?q=site%3Abiccamera.com%20SanDisk%20SDSQQNR-064G-GH3IA"
      },
      {
       "label": "ヤマダウェブコム(型番)",
-      "url": "https://www.google.com/search?q=site%3Ayamada-denkiweb.com%20%E3%82%A2%E3%82%A4%E3%82%AA%E3%83%BC%E3%83%87%E3%83%BC%E3%82%BF%20EX-GD243UDB"
+      "url": "https://www.google.com/search?q=site%3Ayamada-denkiweb.com%20SanDisk%20SDSQQNR-064G-GH3IA"
      },
      {
       "label": "楽天市場",
-      "url": "https://search.rakuten.co.jp/search/mall/4957180188614/"
+      "url": "https://search.rakuten.co.jp/search/mall/0619659197711/"
      },
      {
       "label": "Yahoo!ショッピング",
-      "url": "https://shopping.yahoo.co.jp/search?p=4957180188614"
+      "url": "https://shopping.yahoo.co.jp/search?p=0619659197711"
      },
      {
       "label": "Google（JANで横断）",
-      "url": "https://www.google.com/search?q=4957180188614"
+      "url": "https://www.google.com/search?q=0619659197711"
      },
      {
       "label": "メーカー公式を探す",
-      "url": "https://www.google.com/search?q=%E3%82%A2%E3%82%A4%E3%82%AA%E3%83%BC%E3%83%87%E3%83%BC%E3%82%BF%20EX-GD243UDB%20%E5%85%AC%E5%BC%8F%20%E9%80%9A%E8%B2%A9"
+      "url": "https://www.google.com/search?q=SanDisk%20SDSQQNR-064G-GH3IA%20%E5%85%AC%E5%BC%8F%20%E9%80%9A%E8%B2%A9"
      }
     ]
    },
@@ -2637,41 +2650,42 @@
   },
   {
    "rank": 30,
-   "asin": "B0H1FVQ2SF",
-   "title": "タカラトミー(TAKARA TOMY) デュエル･マスターズTCG DM26-RP2 逆札篇 第2弾 燃えろ禁断! 逆転のドギラゴン革命!! BOX",
+   "asin": "B0FNM3R45C",
+   "title": "ジェリーブロックス (Jelly Blox) ボックスセット 30ピース 新感覚! やわらかブロック はじめてのブロック遊び 知育玩具 931693 正規品",
    "category": "おもちゃ",
-   "image_url": "https://m.media-amazon.com/images/I/5105cVGpoWL.jpg",
+   "image_url": "https://m.media-amazon.com/images/I/4109yQznyxL.jpg",
    "grade": "A",
-   "score": 89.6,
-   "headline": "1か月におよそ600個売れているペースです（推定）。送料込み6,261円までなら仕入れてOKです。",
+   "score": 85.1,
+   "headline": "1か月におよそ500個売れているペースです（推定）。送料込み3,640円までなら仕入れてOKです。",
    "reasons": [
-    "1か月におよそ600個売れているペースです（Keepaのデータからの推定で、実売数ではありません）",
-    "送料込み6,261円までなら、手数料を引いても利益が残る計算です（手数料を引いて1,000円が残る計算）",
-    "出品者は90日前の33人から23人に減っています（ライバルが減っています）",
-    "いまの値段は90日の平均（8,139円）より6%安めです",
-    "この90日で出品者の数が1080回動きました（売れて在庫が入れ替わっているサイン）",
-    "カテゴリーのランキングは818位です"
+    "1か月におよそ500個売れているペースです（Keepaのデータからの推定で、実売数ではありません）",
+    "送料込み3,640円までなら、手数料を引いても利益が残る計算です（手数料を引いて1,000円が残る計算）",
+    "出品者は90日前の5人から1人に減っています（ライバルが減っています）",
+    "いまの値段は90日の平均（4,235円）より38%高めです",
+    "この90日で出品者の数が18回動きました（売れて在庫が入れ替わっているサイン）",
+    "カテゴリーのランキングは375位です"
    ],
    "cautions": [
-    "TAKARA TOMYは真贋調査・知的財産の申し立てを受けやすいと言われるブランドです。仕入れる場合は正規店の領収書を保管してください。"
+    "いまの価格は90日平均（約4,235円）より38%高めです。平均に戻ると利益が減ります。",
+    "値段はカート価格ではなく推定です。Amazonで実際の販売価格を確かめてください。"
    ],
    "metrics": {
-    "price_yen": 8800,
-    "price_is_cart": true,
-    "sales_rank": 818,
-    "est_monthly_sold": 600,
-    "seller_count_now": 23,
-    "seller_count_90d_ago": 33,
-    "price_vs_avg90_pct": -5.6,
-    "data_updated_at": "2026-09-11T21:54:34.736155+00:00",
+    "price_yen": 5840,
+    "price_is_cart": false,
+    "sales_rank": 375,
+    "est_monthly_sold": 500,
+    "seller_count_now": 1,
+    "seller_count_90d_ago": 5,
+    "price_vs_avg90_pct": 37.9,
+    "data_updated_at": "2026-09-11T21:54:35.277356+00:00",
     "data_stale": false
    },
    "ceiling": {
-    "ceiling_yen": 6261,
+    "ceiling_yen": 3640,
     "conditional": false,
     "breakdown": {
-     "sale_price_yen": 8800,
-     "referral_fee_yen": 1007,
+     "sale_price_yen": 5840,
+     "referral_fee_yen": 668,
      "fba_fee_yen": 532,
      "misc_cost_yen": 0,
      "target_profit_yen": 1000,
@@ -2680,44 +2694,49 @@
     "note": "概算です。確定額はセラーセントラルの手数料シミュレーターで確認してください。"
    },
    "links": {
-    "amazon_url": "https://www.amazon.co.jp/dp/B0H1FVQ2SF",
-    "keepa_url": "https://keepa.com/#!product/5-B0H1FVQ2SF",
+    "amazon_url": "https://www.amazon.co.jp/dp/B0FNM3R45C",
+    "keepa_url": "https://keepa.com/#!product/5-B0FNM3R45C",
     "sourcing": [
      {
       "label": "価格.com",
-      "url": "https://search.kakaku.com/4904810093787/"
+      "url": "https://search.kakaku.com/4573205126982/"
      },
      {
-      "label": "ヨドバシ.com",
-      "url": "https://www.yodobashi.com/?word=%E3%82%BF%E3%82%AB%E3%83%A9%E3%83%88%E3%83%9F%E3%83%BC%20%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB%EF%BD%A5%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BATCG%20DM26%20RP2%20%E9%80%86%E6%9C%AD%E7%AF%87%20%E7%AC%AC2%E5%BC%BE"
+      "label": "ヨドバシ.com(型番)",
+      "url": "https://www.google.com/search?q=site%3Ayodobashi.com%20Jelly%20Blox%20931693"
      },
      {
-      "label": "ビックカメラ",
-      "url": "https://www.biccamera.com/bc/category/?q=%83%5E%83J%83%89%83g%83~%81%5B%20%83f%83%85%83G%83%8B%A5%83%7D%83X%83%5E%81%5B%83YTCG%20DM26%20RP2%20%8Bt%8ED%95%D1%20%91%E62%92e"
+      "label": "ビックカメラ(型番)",
+      "url": "https://www.google.com/search?q=site%3Abiccamera.com%20Jelly%20Blox%20931693"
      },
      {
-      "label": "ヤマダウェブコム",
-      "url": "https://www.yamada-denkiweb.com/search/%E3%82%BF%E3%82%AB%E3%83%A9%E3%83%88%E3%83%9F%E3%83%BC%20%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB%EF%BD%A5%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BATCG%20DM26%20RP2%20%E9%80%86%E6%9C%AD%E7%AF%87%20%E7%AC%AC2%E5%BC%BE/"
+      "label": "ヤマダウェブコム(型番)",
+      "url": "https://www.google.com/search?q=site%3Ayamada-denkiweb.com%20Jelly%20Blox%20931693"
      },
      {
       "label": "楽天市場",
-      "url": "https://search.rakuten.co.jp/search/mall/4904810093787/"
+      "url": "https://search.rakuten.co.jp/search/mall/4573205126982/"
      },
      {
       "label": "Yahoo!ショッピング",
-      "url": "https://shopping.yahoo.co.jp/search?p=4904810093787"
+      "url": "https://shopping.yahoo.co.jp/search?p=4573205126982"
      },
      {
       "label": "Google（JANで横断）",
-      "url": "https://www.google.com/search?q=4904810093787"
+      "url": "https://www.google.com/search?q=4573205126982"
      },
      {
       "label": "メーカー公式を探す",
-      "url": "https://www.google.com/search?q=%E3%82%BF%E3%82%AB%E3%83%A9%E3%83%88%E3%83%9F%E3%83%BC%28TAKARA%20TOMY%29%20%E3%82%BF%E3%82%AB%E3%83%A9%E3%83%88%E3%83%9F%E3%83%BC%20%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB%EF%BD%A5%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BATCG%20DM26%20RP2%20%E9%80%86%E6%9C%AD%E7%AF%87%20%E7%AC%AC2%E5%BC%BE%20%E5%85%AC%E5%BC%8F%20%E9%80%9A%E8%B2%A9"
+      "url": "https://www.google.com/search?q=Jelly%20Blox%20931693%20%E5%85%AC%E5%BC%8F%20%E9%80%9A%E8%B2%A9"
      }
     ]
    },
-   "variations": [],
+   "variations": [
+    {
+     "asin": "B0FNM39PJH",
+     "title": "ジェリーブロックス (Jelly Blox) スターター 11ピース 新感覚! やわらかブロック はじめてのブロック遊び 知育玩具 931691 正規品"
+    }
+   ],
    "listing": {
     "is_new_today": true,
     "streak_days": 1
